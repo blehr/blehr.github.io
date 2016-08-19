@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<style>
+	.footer-background:before {
+		display: none;
+	}
+	
+	.header-background {
+		height: 500px;
+		background-attachment: scroll;
+	}
+	
+	@media (max-width: 900px) {
+		.header-background {
+			height: 300px;
+		
+		}
+	}
+</style>
+
+<div class="container bottom-margin">
+	<div class="row">
+		<div class="col-sm-8 col-md-9">
+			<article itemscope itemtype="http://schema.org/BlogPosting">
+				<p><a href="/blog">&larr; back to the blog</a></p>
+				<hr>
+				<header>
+					<h1>{{ page.title | escape }}</h1>
+					<h5>
+					  	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+						<span>Posted in {% if page.categories %} {{ page.categories | array_to_sentence_string  }} {% endif %}</span>		
+					</h5>
+				</header>
+				
+				<div class="post">
+					
+				  {{ content }}
+				
+				</div>
+			</article>
+		</div>
+		
+		{% include sidebar.html %}
+
+	</div>
+</div>
+

@@ -1,0 +1,72 @@
+---
+layout: default
+title: Blog
+navigation_weight: 2
+---
+
+<style>
+    .footer-background:before {
+    	display: none;
+    }
+    
+    .header-background {
+    	height: 500px;
+    	background-attachment: scroll;
+    }
+    
+    @media (max-width: 900px) {
+    	.header-background {
+    		height: 300px;
+    	
+    	}
+    }
+</style>
+
+
+
+<div id="body">
+	<!--<div class="container">-->
+	<!--	<h1>Blog</h1>-->
+	<!--</div>-->
+	<div class="container bottom-margin">
+		<div class="row">
+			<div class="col-sm-8 col-md-9">
+				
+				<div class="blog">
+					 {% for post in paginator.posts %}
+					<div class="post">
+						
+						
+						
+						<h2>
+                           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                        </h2>
+                        
+                        
+                        {% if post.featured_image %}
+							<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>
+						{% endif %}
+                        
+						<p class="text-muted">
+						    <span class="lead post-meta">{{ post.date | date: "%b %-d, %Y" }}
+						    	<!--<br>Posted in {% if post.categories %} {{ post.categories | array_to_sentence_string  }} {% endif %}-->
+						    </span>
+						
+						</p>
+						
+						{{ post.excerpt }}
+						
+						<span class="text-muted">Posted in {% if post.categories %} {{ post.categories | array_to_sentence_string  }} {% endif %}</span>
+						
+					</div>
+					{% endfor %}
+				</div>
+				{% include pagination.html %}
+			</div>
+			
+			{% include sidebar.html %}
+			
+		</div>
+	</div>
+</div>
+

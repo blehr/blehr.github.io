@@ -1,0 +1,300 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Import partials from the `minima` theme.
+// @import "minima";
+
+@import "_navbar.scss";
+
+$body-color: #454A57;
+
+body {
+	overflow-x: hidden;
+}
+
+.header-background {
+    background: url(../images/header-image.jpg) center / cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.page-title-div {
+	width: 100%;
+	position: absolute;
+	top: 200px;
+	left: 0;
+	text-align: center;
+	color: #E7E7E7;
+	
+}
+
+.page-title-in-header {
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.blog,
+.post {
+    max-width: 600px;
+    
+}
+
+
+.post {
+	margin-bottom: 25px;
+}
+
+.post-meta {
+	// font-size: 85%;
+}
+
+.banner,
+.top-section,
+.middle-section,
+.bottom-section {
+	width: 100%;
+	min-height: 400px;
+	padding: 50px;
+	
+	color: #e7e7e7;
+	position: relative;
+	z-index: 1;
+}
+
+.banner {
+	background-color: $body-color;
+}
+
+.top-section {
+	background-color: #4C5C96;
+}
+
+.middle-section {
+	background-color: #45558D;
+}
+
+.bottom-section {
+	background: #3F4E85;
+}
+
+.footer-background {
+	width: 100%;
+	min-height: 250px;
+	color: #e7e7e7;
+	position: relative;
+	z-index: 1;
+	background-color: $body-color;
+}
+
+.banner:before {
+	content: '';
+	position: absolute;
+	top: -100px;
+	right: -10px;
+	width: 150%;
+	height: 150px;
+	background: $body-color;
+	display: block;
+	transform-origin: right center;
+	transform: rotate(-3deg);
+	z-index: 1;
+}
+
+.top-section:before {
+	content: '';
+	position: absolute;
+	top: -100px;
+	left: -10px;
+	width: 150%;
+	height: 150px;
+	background: #4C5C96;
+	display: block;
+	transform-origin: left center;
+	transform: rotate(3deg);
+	z-index: 6;
+	
+}
+
+.middle-section:before {
+	content: '';
+	position: absolute;
+	top: -100px;
+	right: -10px;
+	width: 150%;
+	height: 150px;
+	background: #45558D;
+	display: block;
+	transform-origin: right center;
+	transform: rotate(-3deg);
+	z-index: 6;
+}
+
+.bottom-section:before {
+	content: '';
+	position: absolute;
+	top: -100px;
+	left: -10px;
+	width: 150%;
+	height: 150px;
+	background: #3F4E85;
+	display: block;
+	transform-origin: left center;
+	transform: rotate(3deg);
+	z-index: 6;
+}
+
+.footer-background:before {
+	content: '';
+	position: absolute;
+	top: -100px;
+	right: -10px;
+	width: 150%;
+	height: 150px;
+	background: $body-color;
+	display: block;
+	transform-origin: right center;
+	transform: rotate(-3deg);
+}
+
+.content {
+	width: 100%;
+	margin: auto;
+	position: relative;
+	top: -50px;
+	z-index: 20;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+.bio-pic {
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	position: relative;
+}
+
+
+.content-text {
+	width: 400px;
+	text-align: right;
+	padding: 5px;
+}
+
+.content-text-even {
+	width: 400px;
+	text-align: left;
+	padding: 5px;
+}
+
+.link-to .glyphicon-menu-right {
+	border-radius: 100%;
+	border: 3px solid #e7e7e7;
+	width: 36px;
+	height: 36px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.link-to {
+	color: #e7e7e7;
+}
+
+.portfolio-mock,
+.blog-mock {
+	width: 300px;
+	height: 250px;
+	border: 3px solid #e7e7e7;
+	border-radius: 10px;
+	position: relative;
+	padding-top: 70px;
+	padding-left: 36px;
+	padding-right: 36px;
+}
+
+.portfolio-mock:before {
+	content: 'Portfolio';
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	border-bottom: 3px solid #e7e7e7;
+	font-size: 24px;
+	text-align: center;
+}
+
+.portfolio-mock p,
+.blog-mock p {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.portfolio-mock p:last-of-type,
+.blog-mock p:last-of-type {
+	text-align: right;
+}
+
+.blog-mock:before {
+	content: 'Blog';
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	border-bottom: 3px solid #e7e7e7;
+	font-size: 24px;
+	text-align: center;
+}
+
+.social-icons .fa {
+	font-size: 54px;
+	margin-right: 8px;
+	color: #e7e7e7;
+}
+
+
+#footer {
+    margin-top: 160px;
+}
+
+.bottom-margin {
+    margin-bottom: 75px;
+}
+
+.gallery-image img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-image--blog-page {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+	background-position: center;
+	background-size: cover;
+}
+
+
+@media (max-width: 900px) {
+	.content {
+		flex-direction: column;
+		top: -75px;
+	}
+	.content-text,
+	.content-text-even {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+}
+
