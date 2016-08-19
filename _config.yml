@@ -26,6 +26,6 @@ url: "" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 #Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 paginate: 3
 paginate_path: "/blog/page:num/"
