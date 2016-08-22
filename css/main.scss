@@ -162,6 +162,7 @@ body {
 .content {
 	width: 100%;
 	margin: auto;
+	padding: 5px;
 	position: relative;
 	top: -50px;
 	z-index: 20;
@@ -197,13 +198,15 @@ body {
 }
 
 .content-text {
-	width: 400px;
+	max-width: 400px;
+	min-width: 300px;
 	text-align: right;
 	padding: 5px;
 }
 
 .content-text-even {
-	width: 400px;
+	max-width: 400px;
+	min-width: 300px;
 	text-align: left;
 	padding: 5px;
 }

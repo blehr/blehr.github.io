@@ -10,7 +10,7 @@
 }
 
 .game-board {
-  width: 506px !important;
+  width: 506px;
   height: 306px;
   margin: auto;
   background-color: #eee;
@@ -39,7 +39,7 @@
 }
 
 .control-panel {
-  width: 506px !important;
+  width: 506px;
   margin: auto;
   text-align: center;
 }
