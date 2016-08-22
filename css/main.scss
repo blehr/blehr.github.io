@@ -50,9 +50,6 @@ body {
 	margin-bottom: 25px;
 }
 
-.post-meta {
-	// font-size: 85%;
-}
 
 .banner,
 .top-section,
@@ -182,6 +179,22 @@ body {
 	position: relative;
 }
 
+.portfolio-image {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	background: #FFF;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.transparent-background {
+	background: transparent;
+}
+
+.scout-background-color {
+	background-color: #0E374B;
+}
 
 .content-text {
 	width: 400px;
@@ -209,7 +222,8 @@ body {
 }
 
 .portfolio-mock,
-.blog-mock {
+.blog-mock,
+.codepen-mock {
 	width: 300px;
 	height: 250px;
 	border: 3px solid #e7e7e7;
@@ -233,18 +247,32 @@ body {
 }
 
 .portfolio-mock p,
-.blog-mock p {
+.blog-mock p,
+.codepen-mock p {
 	font-size: 36px;
 	font-weight: bold;
 }
 
 .portfolio-mock p:last-of-type,
-.blog-mock p:last-of-type {
+.blog-mock p:last-of-type,
+.codepen-mock p:last-of-type {
 	text-align: right;
 }
 
 .blog-mock:before {
 	content: 'Blog';
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	border-bottom: 3px solid #e7e7e7;
+	font-size: 24px;
+	text-align: center;
+}
+
+.codepen-mock:before {
+	content: 'Codepen';
 	top: 0;
 	left: 0;
 	position: absolute;

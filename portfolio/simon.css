@@ -1,0 +1,156 @@
+.outer-circle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  border: 10px solid #333;
+  overflow: hidden;
+  z-index: 9;
+}
+.inner-circle {
+  position: relative;
+  top: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 10px solid #333;
+  z-index: 10;
+  background-color: #ECE7EE;
+  text-align: center;
+}
+.simon {
+  top: 12px;
+  left: 30px;
+  position: absolute;;
+}
+.inner-circle p {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: 'Alegreya', serif;
+}
+.button {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  z-index: 1;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.no-mouse {
+  pointer-events: none;
+}
+.left-top-green {
+  background-color: #00A74A;
+  border-right: 5px solid #333;
+  border-bottom: 5px solid #333;
+}
+
+.right-top-red {
+  background-color: #9F0F17;
+  border-left: 5px solid #333;
+  border-bottom: 5px solid #333;
+}
+
+.left-bottom-yellow {
+  background-color: #CCA707;
+  border-right: 5px solid #333;
+  border-top: 5px solid #333;
+}
+
+.right-bottom-blue {
+  background-color: #094A8F;
+  border-left: 5px solid #333;
+  border-top: 5px solid #333;
+}
+.controls {
+  position: absolute;
+  text-align: left;
+  top: 65px;
+  left: 28px;
+}
+
+.form-control.count:focus {
+  outline: none;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-control.count {
+  width: 44px;
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: right;
+  border: 2px solid #333;
+  font-weight: 700;
+}
+.control-btn {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  padding: 6px 6px;
+  background-color: #CCA707;
+  border: 2px solid #333;
+  border-radius: 100%;
+}
+
+.strict-on,
+.control-btn:hover,
+.control-btn:active,
+.control-btn:focus {
+  background-color: #f7d756;
+}
+.labels {
+  position: absolute;
+  top: 98px;
+  left: 30px;
+  font-weight: 700;
+}
+.start-label {
+  margin-left: 8px;
+  margin-right: 5px;
+}
+.power-button {
+  position: absolute;
+  top: 125px;
+  left: 65px;
+  text-align: left;
+}
+.btn-power {
+  border-radius: 10px;
+  width: 50px;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #00A74A;
+  border: 2px solid #333;
+}
+.btn:active,
+.btn:focus,
+.btn:hover {
+  color: #FFF;
+  outline: none;
+}
+.power-on {
+  background-color: #9F0F17;
+}
+
+/*button presses*/
+.green-press {
+  background-color: #02c958;
+}
+.red-press {
+  background-color: #ce3941;
+}
+.yellow-press {
+  background-color: #f7d756;
+}
+.blue-press {
+  background-color: #1f70c1;
+}

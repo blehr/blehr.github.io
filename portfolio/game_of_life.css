@@ -1,0 +1,45 @@
+
+.gol-header {
+    width: 506px;
+    margin: auto;
+    color: #e7e7e7;
+}
+
+.gol-header h1 small {
+    color: #e7e7e7;   
+}
+
+.game-board {
+  width: 506px !important;
+  height: 306px;
+  margin: auto;
+  background-color: #eee;
+  border-radius: 0 0 5px 5px;
+  border: 3px solid #494949;
+}
+
+.block {
+  width: 10px;
+  height: 10px;
+  float: left;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.block:hover {
+  background-color: #F54E59;
+}
+
+.alive {
+  background-color: red;
+}
+
+.baby {
+  background-color: #F54E59;
+}
+
+.control-panel {
+  width: 506px !important;
+  margin: auto;
+  text-align: center;
+}

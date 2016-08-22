@@ -16,16 +16,32 @@
 title: Brandon Lehr
 email: blehr.mail@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ Home of Brandon Lehr, Web Developer, Blogger, Supper Cool Dude
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+logo: ""
+timezone:
+locale: en
+author:
+  twitter: brandonlehr
+twitter:
+  username: brandonlehr
+  
+  
+social:
+  name: Brandon Lehr
+  links: [
+    "http://www.linkedin.com/in/brandonlehr",
+    "http://plus.google.com/+BrandonLehr",
+    "https://twitter.com/brandonlehr",
+    "https://github.com/blehr"  
+  ]
+  
 
 
 # Build settings
 markdown: kramdown
 #Gems
-gems: [jekyll-paginate, jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag, jekyll-mentions, jemoji, jekyll-redirect-from, jekyll-sitemap, jekyll-feed]
 paginate: 3
 paginate_path: "/blog/page:num/"
