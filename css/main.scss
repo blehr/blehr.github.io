@@ -11,12 +11,27 @@
 @import "_navbar.scss";
 
 $body-color: #454A57;
-
+html {
+	widows: 100%;
+	height: 100%;
+	width: 100vw;
+	overflow-x: hidden;
+	position: fixed;
+}
 body {
+	width: 100%;
+	height: 100%;
+	width: 100vw;
+	position: relative;
 	overflow-x: hidden;
 }
 #body {
+	width: 100%;
+	height: 100%;
+	width: 100vw;
 	overflow-x: hidden;
+	position: relative;
+	z-index: 1;
 }
 
 .header-background {
@@ -61,10 +76,9 @@ body {
 	width: 100%;
 	min-height: 400px;
 	padding: 50px;
-	
 	color: #e7e7e7;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 
 .banner {
@@ -89,7 +103,7 @@ body {
 	min-height: 250px;
 	color: #e7e7e7;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 	background-color: $body-color;
 }
 
@@ -97,22 +111,22 @@ body {
 	content: '';
 	position: absolute;
 	top: -100px;
-	right: -10px;
-	width: 150%;
+	right: -5px;
+	width: 101%;
 	height: 150px;
 	background: $body-color;
 	display: block;
 	transform-origin: right center;
 	transform: rotate(-3deg);
-	z-index: 1;
+	z-index: 2;
 }
 
 .top-section:before {
 	content: '';
 	position: absolute;
 	top: -100px;
-	left: -10px;
-	width: 150%;
+	left: -5px;
+	width: 101%;
 	height: 150px;
 	background: #4C5C96;
 	display: block;
@@ -126,8 +140,8 @@ body {
 	content: '';
 	position: absolute;
 	top: -100px;
-	right: -10px;
-	width: 150%;
+	right: -5px;
+	width: 101%;
 	height: 150px;
 	background: #45558D;
 	display: block;
@@ -140,8 +154,8 @@ body {
 	content: '';
 	position: absolute;
 	top: -100px;
-	left: -10px;
-	width: 150%;
+	left: -5px;
+	width: 101%;
 	height: 150px;
 	background: #3F4E85;
 	display: block;
@@ -154,8 +168,8 @@ body {
 	content: '';
 	position: absolute;
 	top: -100px;
-	right: -10px;
-	width: 150%;
+	right: -5px;
+	width: 101%;
 	height: 150px;
 	background: $body-color;
 	display: block;
