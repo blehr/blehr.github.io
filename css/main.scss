@@ -15,6 +15,9 @@ $body-color: #454A57;
 body {
 	overflow-x: hidden;
 }
+#body {
+	overflow-x: hidden;
+}
 
 .header-background {
     background: url(../images/header-image.jpg) center / cover;
@@ -79,6 +82,7 @@ body {
 .bottom-section {
 	background: #3F4E85;
 }
+
 
 .footer-background {
 	width: 100%;
