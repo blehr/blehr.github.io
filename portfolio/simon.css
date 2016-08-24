@@ -1,18 +1,19 @@
 .outer-circle {
-  position: relative;
-  width: 500px;
-  height: 500px;
+  width: 320px;
+  height: 320px;
   border-radius: 100%;
+  position: relative;
   border: 10px solid #333;
   overflow: hidden;
   z-index: 9;
 }
 .inner-circle {
-  position: relative;
-  top: 150px;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
   border: 10px solid #333;
   z-index: 10;
   background-color: #ECE7EE;
@@ -20,18 +21,18 @@
 }
 .simon {
   top: 12px;
-  left: 30px;
+  left: 37px;
   position: absolute;;
 }
 .inner-circle p {
-  font-size: 42px;
+  font-size: 24px;
   font-weight: 900;
   font-family: 'Alegreya', serif;
 }
 .button {
   position: relative;
-  width: 240px;
-  height: 240px;
+  width: 150px;
+  height: 150px;
   z-index: 1;
   touch-action: manipulation;
   cursor: pointer;
@@ -71,8 +72,8 @@
 .controls {
   position: absolute;
   text-align: left;
-  top: 65px;
-  left: 28px;
+  top: 45px;
+  left: 10px;
 }
 
 .form-control.count:focus {
@@ -108,9 +109,10 @@
   background-color: #f7d756;
 }
 .labels {
+  font-size: .9em;
   position: absolute;
-  top: 98px;
-  left: 30px;
+  top: 77px;
+  left: 15px;
   font-weight: 700;
 }
 .start-label {
@@ -119,8 +121,8 @@
 }
 .power-button {
   position: absolute;
-  top: 125px;
-  left: 65px;
+  top: 95px;
+  left: 42px;
   text-align: left;
 }
 .btn-power {

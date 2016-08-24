@@ -15,8 +15,11 @@ navigation_weight: 3
     }
 </style>
 
+<link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya:400,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="simon.css" type="text/css" />
 <link rel="stylesheet" href="game_of_life.css" type="text/css" />
+<link rel="stylesheet" href="ttt.css" type="text/css" />
 
     <section class="banner">
     	<div class="content">
@@ -24,7 +27,7 @@ navigation_weight: 3
     		<div class="content-text">
     			<h3><a href="http://whendidiwork.com">whendidiwork.com</a></h3>
     			<p class="lead">Track your hours on a Google Calendar and Sheet, all from one convenient place.</p>
-    			<p><a href="/gallery" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Have a look!</a></p>
+    			<p><a href="#" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Have a look!</a></p>
 
     		</div>
     		
@@ -45,7 +48,7 @@ navigation_weight: 3
     		<div class="content-text-even">
     			<h3><a href="http://pinewoodraceday.com">PinewoodRaceDay.com</a></h3>
     			<p class="lead">Free Pinewood derby and Raingutter regatta software</p>
-    			<p><a href="/gallery" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Try it out!</a></p>
+    			<p><a href="#" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Try it out!</a></p>
     		</div>
     		
     	</div>
@@ -56,7 +59,7 @@ navigation_weight: 3
     		<div class="content-text">
     			<h3>Pummel WordPress Theme</h3>
     			<p class="lead">Customizable, perfect for portfolios and personal blogs.</p>
-    			<p><a href="/blog" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Give style to your content!</a></p>
+    			<p><a href="#" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Give style to your content!</a></p>
     		</div>
     		
     		<div class="portfolio-image">
@@ -72,10 +75,10 @@ navigation_weight: 3
         	    	<img src="/images/wchscouts.png" class="img-responsive" />
         		</div>
     		
-    		<div class="content-text">
+    		<div class="content-text-even">
     			<h3>Scout website</h3>
     			<p class="lead">The website for the Boy Scouts of Troop 5112 and the Cubscouts of Pack 112.</p>
-    			<p><a href="/blog" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Are you perpared?</a></p>
+    			<p><a href="http://wchscouts.com" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Are you perpared?</a></p>
     		</div>
     		
     	</div>
@@ -85,9 +88,9 @@ navigation_weight: 3
     	<div class="content" >
     		
     		<div class="content-text">
-    			<h3>Wanna play Simon?</h3>
-    			<p class="lead">Of course you do!</p>
-    			<p><a href="http://codepen.io/blehr/full/NxZxVx/" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Source on Codepen</a></p>
+    			<h3>Simon says,</h3>
+    			<p class="lead">Play a game or two.</p>
+    			<p><a href="http://codepen.io/blehr/pen/NxZxVx" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Source on Codepen</a></p>
     		</div>
     		
     		<div >
@@ -109,7 +112,7 @@ navigation_weight: 3
                       <span class="strict-label">strict</span>
                     </div>
                     <div class="power-button">
-                      <button type="button" name="button" class="btn btn-power center-block">on</button>
+                      <button type="button" name="button" class="btn btn-power btn-sm center-block">on</button>
                     </div>
                   </div>
                   <div class="button left left-bottom-yellow"></div>
@@ -132,8 +135,8 @@ navigation_weight: 3
 	        <div id="app"></div>
     	    
     	    
-    		<div class="content-text">
-    			<h3>Game Of Life?</h3>
+    		<div class="content-text-even">
+    			<h3>Game of Life?</h3>
     			<p class="lead">This one is built with ReactJs.</p>
     			<p><a href="http://codepen.io/blehr/full/VadrZx/" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>View on Codepen!</a></p>
     		</div>
@@ -144,38 +147,76 @@ navigation_weight: 3
     <section class="middle-section">
     	<div class="content">
     		<div class="content-text">
-    			<h3>Codepen Collection</h3>
-    			<p class="lead">All of my Free Code Camp projects.</p>
-    			<p><a href="http://codepen.io/collection/nkNxkb/" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Check em out!</a></p>
+    			<h3>Tic-Tac-Toe?</h3>
+    			<p class="lead">Think you can win?</p>
+    			<p><a href="http://codepen.io/blehr/pen/xGMPEy" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>View Source!</a></p>
     		</div>
     		
-    		<div class="codepen-mock" >
-    			<p>Built</p>
-    			<p>Stuff</p>
-    		</div>
+    		<div class="ttt-wrapper">
+
+          <div class="ttt-notification">
+        
+            <div class="ttt-text">
+              <h1 class="ttt-h1">Tic-Tac-Toe</h1>
+              <p class="ttt-question">Choose Wisely</p>
+              <button class="btn btn-primary x ttt-btn" data-img="tick"><img src="https://dl.dropboxusercontent.com/u/21809793/tick.jpg" class="ttt-img"></button>
+              <button class="btn btn-primary o ttt-btn" data-img="toe"><img src="https://dl.dropboxusercontent.com/u/21809793/toes%20-%20Edited.png" class="ttt-img"></button>
+              
+            </div> 
+          </div>
+        
+          <div class="ttt-notify-winner">
+            <div class="ttt-text">
+              <p class="ttt-question"></p>
+              <button class="btn btn-primary ttt-reset ttt-btn">Play Again</button>
+            </div>
+          </div>
+        
+          <div class="ttt-board container">
+            <div class="row">
+        
+              <div id="sq1" class="square col-xs-4"></div>
+              <div id="sq2" class="square col-xs-4"></div>
+              <div id="sq3" class="square col-xs-4"></div>
+        
+              <div id="sq4" class="square col-xs-4"></div>
+              <div id="sq5" class="square col-xs-4"></div>
+              <div id="sq6" class="square col-xs-4"></div>
+        
+              <div id="sq7" class="square col-xs-4"></div>
+              <div id="sq8" class="square col-xs-4"></div>
+              <div id="sq9" class="square col-xs-4"></div>
+        
+            </div>
+          </div>
+        </div>
+
     	</div>
     </section>
     
     <section class="bottom-section">
     	<div class="content">
-    		
-    		
-    		<div class="blog-mock" >
-    			<p>Blog</p>
+    	  <div class="codepen-mock" >
+    			<p>Built</p>
     			<p>Stuff</p>
     		</div>
-    		
-    		<div class="content-text-even" style="padding-top:50px;">
-    			<h3>Okay, that's enough</h3>
-    			<p class="lead">Why not check out my blog?</p>
-    			<p><a href="/blog" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Its over here!</a></p>
+    	
+    	
+    		<div class="content-text-even">
+    			<h3>Codepen Collection</h3>
+    			<p class="lead">All of my Free Code Camp projects.</p>
+    			<p><a href="http://codepen.io/collection/nkNxkb/" class="link-to lead" ><span class="glyphicon glyphicon-menu-right"></span>Check em out!</a></p>
     		</div>
-    		
-    		
-    	</div>
+	
+	    </div>
     </section>
+    
+    
+    
+    
     
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
 <script type="text/javascript" src="simon.js"></script>
 <script type="text/javascript" src="game_of_life.js"></script>
+<script type="text/javascript" src="ttt.js"></script>

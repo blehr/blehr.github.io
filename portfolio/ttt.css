@@ -1,0 +1,97 @@
+.ttt-wrapper {
+  width: 300px;
+  height: 300px;
+}
+
+.ttt-img {
+  height: 75px;
+  max-width: 90px;
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+}
+.ttt-h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  font-size: 3em;
+  color: #1D1F20;
+}
+.ttt-attribute {
+  position: relative;
+  bottom: -10px;
+}
+
+.ttt-notification,
+.ttt-notify-winner {
+  width: 300px;
+  height: 0;
+  position: absolute;
+
+  z-index: 5;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  background: repeat url(https://dl.dropboxusercontent.com/u/21809793/seamless_paper_texture.png);
+
+}
+
+.ttt-notify-winner .ttt-text .ttt-question {
+  font-size: 3em;
+}
+
+.ttt-btn {
+  font-size: 1.5em;
+}
+
+.ttt-text {
+  position: relative;
+  top: 10%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: #1D1F20;
+  border-radius: 0 0 5px 5px;
+  font-family: 'Roboto Slab', cursive;
+}
+
+.ttt-text p {
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
+.ttt-board {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.square {
+  width: 95px;
+  height: 95px;
+  padding-top: 15px;
+  padding-left: 8px;
+  font-size: 3em;
+}
+
+#sq4,
+#sq5,
+#sq6 {
+  border-top: 2px solid #878383;
+  border-bottom: 2px solid #878383;
+}
+
+#sq2,
+#sq5,
+#sq8 {
+  border-left: 2px solid #878383;
+  border-right: 2px solid #878383;
+}
+
+@media (max-width: 400px) {
+  .ttt-h1 {
+    font-size: 3em;
+  }
+}
