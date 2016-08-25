@@ -24,17 +24,11 @@ a {
 }
 
 $body-color: #454A57;
-html {
-	width: 100%;
-	height: 100%;
-	width: 100vw;
-	position: fixed;
-}
-body {
-	width: 100%;
-	height: 100%;
-	width: 100vw;
-	position: relative;
+
+
+
+pre {
+	overflow: auto !important;
 }
 
 .header-background {
