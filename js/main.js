@@ -2,7 +2,7 @@
 
 $(function() {
     $('#body').scroll(function(ev) {
-    $('#body').scrollLeft(0);
-});
+        $('#body').scrollLeft(0);
+    });
 });
 

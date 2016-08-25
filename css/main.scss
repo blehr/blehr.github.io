@@ -10,12 +10,25 @@
 
 @import "_navbar.scss";
 
+img {
+	width: 100%;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.post a {
+	font-weight: 700;
+}
+
 $body-color: #454A57;
 html {
 	width: 100%;
 	height: 100%;
 	width: 100vw;
-	overflow-x: hidden;
+	// overflow-x: hidden;
 	position: fixed;
 }
 body {
@@ -23,7 +36,7 @@ body {
 	height: 100%;
 	width: 100vw;
 	position: relative;
-	overflow-x: hidden;
+	// overflow-x: hidden;
 }
 #body {
 	width: 100%;
@@ -339,6 +352,14 @@ body {
 	background-size: cover;
 }
 
+.img-border {
+	border: 1px solid $body-color;
+	border-radius: 15px;
+}
+
+.post-header {
+	margin-bottom: 10px;
+}
 
 @media (max-width: 900px) {
 	.content {

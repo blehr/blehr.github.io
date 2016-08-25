@@ -18,7 +18,7 @@ email: blehr.mail@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  Home of Brandon Lehr, Web Developer, Blogger, Supper Cool Dude
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://brandonlehr.com" # the base hostname & protocol for your site
 logo: ""
 timezone:
 locale: en
@@ -43,5 +43,5 @@ social:
 markdown: kramdown
 #Gems
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag, jekyll-mentions, jemoji, jekyll-redirect-from, jekyll-sitemap, jekyll-feed]
-paginate: 3
+paginate: 5
 paginate_path: "/blog/page:num/"
