@@ -1,11 +1,6 @@
 <div id="header" class="header-background">
 	
-	<!--{% if page.title %}-->
-	<!--<div class="page-title-div">-->
-	<!--	<h1 class="page-title-in-header">{{page.title}}</h1>-->
-	<!--</div>-->
 	
-	<!--{% endif %}-->
 	<div class="container-fluid nav-container">
 		<div role="navigation" class="navbar navbar-default no-border-radius">
 			<div class="container-fluid">
@@ -39,4 +34,12 @@
 			</div>
 		</div>
 	</div>
+	
+	{% if page.path contains '_posts' %}
+	<div class="page-title-div">
+		<h1 class="page-title-in-header">{{ page.title | escape }}</h1>
+	</div>
+	
+	{% endif %}
+	
 </div>
