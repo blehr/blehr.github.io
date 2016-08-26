@@ -1,6 +1,6 @@
 <div id="header" class="header-background">
-	
-	
+
+
 	<div class="container-fluid nav-container">
 		<div role="navigation" class="navbar navbar-default no-border-radius">
 			<div class="container-fluid">
@@ -13,33 +13,24 @@
 				</div>
 				<div class="collapse navbar-collapse no-border-color">
 					<ul class="nav navbar-nav navbar-right">
-						
-				   {% assign navigation_pages = site.pages | sort: 'navigation_weight' %}
-					 {% for my_page in navigation_pages %}
-				 	 	{% assign my_page_unique = my_page.url | split:"/" %}
-				 	 	{% if my_page_unique.size < 3 %}
-            {% if my_page.title %}
-              
-              <li {% if my_page.url == page.url %}class="active"{% endif %}>
-                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }} </a>
-              </li>
-              
-            {% endif %}
-            {% endif %}
-          {% endfor %}
-					  
+
+						{% assign navigation_pages = site.pages | sort: 'navigation_weight' %} {% for my_page in navigation_pages %} {% assign my_page_unique = my_page.url | split:"/" %} {% if my_page_unique.size < 3 %} {% if my_page.title %} 
+						<li {% if my_page.url == page.url %}class="active" {% endif %}>
+							<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }} </a>
+						</li>
+						{% endif %} {% endif %} {% endfor %}
+
 					</ul>
-					
+
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 	{% if page.path contains '_posts' %}
 	<div class="page-title-div">
 		<h1 class="page-title-in-header">{{ page.title | escape }}</h1>
 	</div>
-	
 	{% endif %}
-	
+
 </div>

@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 navigation_weight: 2
+breadcrumb: Blog
 ---
 
 <style>
@@ -27,6 +28,15 @@ navigation_weight: 2
 </style>
 
 	<div class="container bottom-margin">
+		
+		
+		<div class="row">
+			<div class="col-sm-12">
+				{% include breadcrumb.html %}
+				<hr>
+			</div>
+		</div>
+		
 		<div class="row">
 			<div class="col-sm-8 col-md-9">
 				
@@ -34,9 +44,11 @@ navigation_weight: 2
 					 {% for post in paginator.posts %}
 					<div class="post">
 						
+						<p class="text-muted">
+						    <span class="lead post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+						</p>
 						
-						
-						<h2>
+						<h2 class="blog-page-post-title">
                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                         </h2>
                         
@@ -44,19 +56,23 @@ navigation_weight: 2
                         {% if post.featured_image %}
 							<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>
 						{% endif %}
-                        
-						<p class="text-muted">
-						    <span class="lead post-meta">{{ post.date | date: "%b %-d, %Y" }}
-						    	<!--<br>Posted in {% if post.categories %} {{ post.categories | array_to_sentence_string  }} {% endif %}-->
-						    </span>
-						
-						</p>
+
 						
 						<!--{{ post.excerpt }}-->
+
 						
-						<span class="text-muted">Posted in {% if post.categories %} {{ post.categories | array_to_sentence_string  }} {% endif %}</span>
+						<span class="small text-muted">Posted in {% if post.categories %}
+							{% assign lastCat = post.categories.last %}
+							{% for cat in post.categories %}
+								{{ cat }}
+							{% if cat != lastCat %}
+								/
+							{% endif %}
+							{% endfor %}
+							{% endif %}</span>
 						
 					</div>
+					<hr>
 					{% endfor %}
 				</div>
 				{% include pagination.html %}

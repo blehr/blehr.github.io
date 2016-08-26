@@ -44,8 +44,13 @@ layout: default
 	<div class="container bottom-margin">
 		<div class="row">
 			<div class="col-sm-12">
-				<p><a href="/blog">&larr; back to the blog</a></p>
-				<!--<h1 class="text-center">{{ page.title | escape }}</h1>-->
+			
+				<ol class="breadcrumb">
+				  <li><a href="/">Home</a></li>
+				  <li><a href="/blog">Blog</a></li>
+				  <li class="active"><a href="{{ page.url }}" >{{ page.title | escape }}</a></li>
+				</ol>
+				
 				<hr>
 			</div>
 			
@@ -53,10 +58,8 @@ layout: default
 		<div class="row">
 			<div class="col-sm-8 col-md-9">
 				<article itemscope itemtype="http://schema.org/BlogPosting">
-					<!--<p><a href="/blog">&larr; back to the blog</a></p>-->
-					<!--<hr>-->
+					
 					<header class="post-header">
-						<p>{{ page.title | escape }}</p>
 			
 					  	<p class="post-meta lead"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
 							<br><span class="small">Posted in {% if page.categories %}

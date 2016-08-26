@@ -10,6 +10,10 @@
 
 @import "_navbar.scss";
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 img {
 	width: 100%;
 }
@@ -25,6 +29,9 @@ a {
 
 $body-color: #454A57;
 
+.breadcrumb {
+	background: transparent;
+}
 
 
 pre {
@@ -32,38 +39,45 @@ pre {
 }
 
 .header-background {
-    background: url(../images/header-image.jpg) center / cover;
+    background: url(//res.cloudinary.com/dtthr02eh/image/upload/v1472245479/header-image_huajhv.jpg) center / cover;
     height: 600px;
+    position: relative;
     background-attachment: fixed;
 }
 
 .page-title-div {
 	width: 100%;
 	position: absolute;
-	top: 200px;
-	left: 0;
 	text-align: center;
 	color: #E7E7E7;
 	z-index: 2;
+	top: 50%;
+  	transform: translateY(-50%);
 }
 
 .page-title-in-header {
 	width: 70%;
 	margin: auto;
-	padding: 20px;
+	padding-top: 50px;
 }
 
 .blog,
 .post {
     max-width: 600px;
-    
 }
 
+.blog-page-post-title {
+	margin-top: 0;
+}
 
 .post {
 	margin-bottom: 25px;
 }
 
+.post-meta,
+.breadcrumb > li > a {
+	color: #777;
+}
 
 .banner,
 .top-section,
@@ -92,7 +106,6 @@ pre {
 .bottom-section {
 	background: #3F4E85;
 }
-
 
 .footer-background {
 	width: 100%;
@@ -129,7 +142,6 @@ pre {
 	transform-origin: left center;
 	transform: rotate(3deg);
 	z-index: 6;
-	
 }
 
 .middle-section:before {
@@ -356,14 +368,16 @@ pre {
 		margin-bottom: 20px;
 	}
 	
-	.page-title-div {
-		top: 75px;
-	}
-	
 	.page-title-in-header {
 		width: 90%;
 		font-size: 2em;
 	}
 
+}
+
+@media (max-width: 500px) {
+	.blog-page-post-title {
+		font-size: 1.5em;
+	}
 }
 
