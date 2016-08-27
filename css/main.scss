@@ -356,6 +356,16 @@ pre {
 	margin-bottom: 10px;
 }
 
+.post-navigation {
+	width: 100%;
+	max-width: 600px;
+}
+
+.post-navigation a {
+	padding-top: 5px;
+	font-weight: 700;
+}
+
 @media (max-width: 900px) {
 	.content {
 		flex-direction: column;
@@ -373,6 +383,12 @@ pre {
 		font-size: 2em;
 	}
 
+}
+
+@media (max-width: 590px) {
+	.post-navigation {
+		justify-content: space-around;
+	}
 }
 
 @media (max-width: 500px) {

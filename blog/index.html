@@ -9,58 +9,58 @@ breadcrumb: Blog
     .footer-background:before {
     	display: none;
     }
-    
+
     .footer-background {
     	overflow: hidden;
     }
-    
+
     .header-background {
     	height: 500px;
     	background-attachment: scroll;
     }
-    
+
     @media (max-width: 900px) {
     	.header-background {
     		height: 300px;
-    	
+
     	}
     }
 </style>
 
 	<div class="container bottom-margin">
-		
-		
+
+
 		<div class="row">
 			<div class="col-sm-12">
 				{% include breadcrumb.html %}
 				<hr>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-sm-8 col-md-9">
-				
+
 				<div class="blog">
 					 {% for post in paginator.posts %}
 					<div class="post">
-						
+
 						<p class="text-muted">
 						    <span class="lead post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 						</p>
-						
+
 						<h2 class="blog-page-post-title">
                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                         </h2>
-                        
-                        
+
+
                         {% if post.featured_image %}
 							<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>
 						{% endif %}
 
-						
+
 						<!--{{ post.excerpt }}-->
 
-						
+
 						<span class="small text-muted">Posted in {% if post.categories %}
 							{% assign lastCat = post.categories.last %}
 							{% for cat in post.categories %}
@@ -70,16 +70,16 @@ breadcrumb: Blog
 							{% endif %}
 							{% endfor %}
 							{% endif %}</span>
-						
+
 					</div>
 					<hr>
 					{% endfor %}
 				</div>
 				{% include pagination.html %}
 			</div>
-			
+
 			{% include sidebar.html %}
-			
+
 		</div>
 	</div>
 

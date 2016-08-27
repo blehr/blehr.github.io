@@ -80,6 +80,16 @@ layout: default
 					
 					</div>
 				</article>
+				<!--previous and next post-->
+				<div class="post-navigation clearfix">
+					{% if page.previous != nil %}
+					<a href="{{ site.baseurl }}{{ page.previous.url }}" class="pull-left" ><span class="fa fa-angle-double-left"></span> {{page.previous.title}}</a>
+					{% endif %}
+					{% if page.next != nil %}
+					<a href="{{ site.baseurl }}{{ page.next.url }}" class="pull-right text-right" >{{page.next.title}} <span class="fa fa-angle-double-right"></span></a>
+					{% endif %}
+				</div>
+				
 			</div>
 			
 			{% include sidebar.html %}
