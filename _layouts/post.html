@@ -80,6 +80,9 @@ layout: default
 					
 					</div>
 				</article>
+				<!--profile-widget-->
+				{% include profile.html %}
+				
 				<!--previous and next post-->
 				<div class="post-navigation clearfix">
 					{% if page.previous != nil %}
@@ -89,6 +92,8 @@ layout: default
 					<a href="{{ site.baseurl }}{{ page.next.url }}" class="pull-right text-right" >{{page.next.title}} <span class="fa fa-angle-double-right"></span></a>
 					{% endif %}
 				</div>
+				
+				{% include disqus_comments.html %}
 				
 			</div>
 			

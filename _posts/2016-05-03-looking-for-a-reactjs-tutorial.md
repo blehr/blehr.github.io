@@ -12,7 +12,10 @@ categories:
 tags:
   - React.js
 featured_image: /uploads/2016/04/reactjsprogram.png
+comments: true
 ---
+<img src="{{ site.baseurl }}{{ page.featured_image }}" alt="reactjsprogram" class="" />
+
 There is always more to learn! JavaScript is moving fast and doesn&#8217;t appear to be slowing anytime soon. The question is, &#8220;How do I go about learning all of these new things?&#8221; Where do I go to learn Angular, React, Node, Backbone, RxJs, Browserify, Gulp, Webpack, ES6, 7, 2025&#8230; ? Where can I learn it and learn it correctly?
 
 If you&#8217;re expecting the answer to end all answers, I&#8217;m sorry. I&#8217;m still searching for many of these myself, but I have found one answer.<!--more-->

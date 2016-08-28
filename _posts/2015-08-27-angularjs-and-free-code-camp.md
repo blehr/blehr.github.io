@@ -13,8 +13,11 @@ tags:
   - Angular
   - Free Code Camp
 featured_image: /uploads/2015/08/success-angular.jpg
+comments: true
 ---
-I was feeling pretty good. The [ziplines](http://brandonlehr.com/free-code-camp-progress-update/) were finished and my confidence with HTML, CSS, JavaScript, jQuery, and bootstrap was high. Bring it on! I&#8217;m ready for anything!
+<img src="{{ site.baseurl }}{{ page.featured_image }}" alt="angular kid" class="" />
+
+I was feeling pretty good. The [ziplines]({% post_url 2015-07-29-free-code-camp-progress-update %}) were finished and my confidence with HTML, CSS, JavaScript, jQuery, and bootstrap was high. Bring it on! I&#8217;m ready for anything!
 
 ## AngularJS
 
@@ -27,7 +30,7 @@ The problem is that this course is the only Angular training on the Free Code Ca
 My first thought was to try and recreate all of the ziplines using Angular. This quickly informed me that I needed some more training.
 
 
-<a class="TT_tweet_link" href="http://twitter.com/intent/tweet?text=It%20can%20be%20rather%20frustrating%20to%20re-learn%20how%20to%20do%20things%20you%20already%20know%2C%20but%20in%20the%20Angular%20way.%20http%3A%2F%2Fwp.me%2Fp7bAxC-36" target="_blank">It can be rather frustrating to re-learn how to do things you already know, but in the Angular way.</a>
+<a class="tweet-this" href="http://twitter.com/intent/tweet?text=It%20can%20be%20rather%20frustrating%20to%20re-learn%20how%20to%20do%20things%20you%20already%20know%2C%20but%20in%20the%20Angular%20way.%20{{ site.url }}{{page.url }}" target="_blank">It can be rather frustrating to re-learn how to do things you already know, but in the Angular way. Tweet This? <span class="fa fa-twitter"></span></a>
 
  At first, it felt like I was taking a step backwards. I was hitting a wall trying to reproduce functionality with Angular that I had previously done without it. So I put my Google skills to use and went looking for the help I needed.
 

@@ -13,10 +13,11 @@ tags:
   - CodePen
   - Free Code Camp
 featured_image: /uploads/2015/07/Screenshot-2015-07-29-at-6.14.25-PM.png
+comments: true
 ---
-It&#8217;s been just over a month since [I last wrote](http://brandonlehr.com/free-code-camp-full-stack-javascript-training/) of my adventures in Free Code Camp. Since then I have been trudging along, making use of every free moment I can get, to learn and build. All the hard work is paying off, and as of now, I have completed six of the eight ziplines!
+It&#8217;s been just over a month since [I last wrote]({% post_url 2015-06-19-free-code-camp-full-stack-javascript-training %}) of my adventures in Free Code Camp. Since then I have been trudging along, making use of every free moment I can get, to learn and build. All the hard work is paying off, and as of now, I have completed six of the eight ziplines!
 
-[<img class="img-rounded aligncenter wp-image-154 size-full" src="{{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png?fit=421%2C320" alt="FreeCodeCamp map ziplines" srcset="{{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png?w=421 421w, {{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png?resize=300%2C228 300w" sizes="(max-width: 421px) 100vw, 421px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png)
+[<img class="img-rounded img-md img-center" src="{{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png?fit=421%2C320" alt="FreeCodeCamp map ziplines" srcset="{{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png?w=421 421w, {{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png?resize=300%2C228 300w" sizes="(max-width: 421px) 100vw, 421px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/07/screenshot-freecodecamp-map-zipline.png)
 
 ## What are Ziplines?
 
@@ -26,7 +27,7 @@ On the course [map](http://www.freecodecamp.com/map) they are listed as Front En
 
 The most interesting thing about this project was trying to get the tweet button to open up with the quote text already populated. This is quite easy to do if the content is static, but took some figuring out with each quote being dynamically loaded. [<i class="glyphicon glyphicon-chevron-right"></i> Quote Machine](http://codepen.io/blehr/full/BNxepx)
 
-### [<img class="aligncenter wp-image-162 size-medium" src="{{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline-300x191.png?fit=300%2C191" alt="Free Code Camp Quote Generator Zipline" srcset="{{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline.png?resize=300%2C191 300w, {{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline.png?w=672 672w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline.png)Next up, is showing the local weather.
+### [<img class="" src="{{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline-300x191.png?fit=300%2C191" alt="Free Code Camp Quote Generator Zipline" srcset="{{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline.png?resize=300%2C191 300w, {{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline.png?w=672 672w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/07/screenshot-quote-zipline.png)Next up, is showing the local weather.
 
 For this project, I wanted to try and do something a little different. The instructions called for background images that reflected the current weather. I liked this idea, but since I was using the geolocation API to find the user&#8217;s location, I wanted to include a map. The top of the screen displays the weather information over top of a corresponding background image, while the lower portion is a Google Map with the user&#8217;s location pinned. What can I say, I think maps are cool! [<i class="glyphicon glyphicon-chevron-right"></i> Local Weather](http://codepen.io/blehr/full/PqaWbV)
 

@@ -12,10 +12,13 @@ categories:
 tags:
   - whendidiwork
 featured_image: /images/whendidiwork-logo.png
+comments: true
 ---
 <div class="well well-lg">
-  <strong>Update 12/5/2015 </strong>I have released an updated version of the app with new features! When you&#8217;re finished here, head over and <a href="http://brandonlehr.com/new-and-improved-whendidiwork-com/">learn more</a> about the new whendidiwork!
+  <strong>Update 12/5/2015 </strong>I have released an updated version of the app with new features! When you&#8217;re finished here, head over and <a href="{{ site.url }}{% post_url 2015-12-06-new-and-improved-whendidiwork-com %}">learn more</a> about the new whendidiwork!
 </div>
+
+<img src="{{ site.baseurl }}{{ page.featured_image }}" alt="whendidiwork" class="img-md img-center" />
 
 ## A simple time clock application. That&#8217;s all I was looking for.
 
@@ -41,15 +44,15 @@ My first and most obvious thought was, &#8220;There must be an Android app for t
 
 [whendidiwork](http://whendidiwork.com) is a web app that can be accessed from any browser, desktop or mobile. Simply sign in with your Google account and all data will be written to any calendar and spreadsheet that you own. Enter your data once and save to both places.
 
-[<img class="img-rounded img-border aligncenter wp-image-107 size-large" src="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login-1024x377.png?fit=640%2C236" alt="whendidiwork.com login" srcset="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png?resize=1024%2C377 1024w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png?resize=300%2C110 300w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png?w=1204 1204w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png)
+[<img class="img-rounded img-border" src="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login-1024x377.png?fit=640%2C236" alt="whendidiwork.com login" srcset="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png?resize=1024%2C377 1024w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png?resize=300%2C110 300w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png?w=1204 1204w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-login.png)
 
 With whendidiwork you can create a new calendar or use an existing one. I prefer to use one &#8220;whendidiwork&#8221; calendar for tracking all of my hours across different projects and jobs. Then I create a spreadsheet for each individual job to which I record my times.
 
-[<img class="img-rounded img-border aligncenter wp-image-105 size-large" src="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create-1024x425.png?fit=640%2C266" alt="whendidiwork.com -create-calendar" srcset="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png?resize=1024%2C425 1024w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png?resize=300%2C124 300w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png?w=1184 1184w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png)
+[<img class="img-rounded img-border" src="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create-1024x425.png?fit=640%2C266" alt="whendidiwork.com -create-calendar" srcset="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png?resize=1024%2C425 1024w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png?resize=300%2C124 300w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png?w=1184 1184w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-calendar-create.png)
 
 To solve the night-shift dilemma, there are separate inputs for dates and times, both in and out. There is even room to write a note to be recorded with each entry.
 
-[<img class="img-rounded img-border aligncenter wp-image-104 size-full" src="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png?fit=640%2C464" alt="whendidiwork.com -inputs" srcset="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png?w=1015 1015w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png?resize=300%2C218 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png)
+[<img class="img-rounded img-border" src="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png?fit=640%2C464" alt="whendidiwork.com -inputs" srcset="{{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png?w=1015 1015w, {{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png?resize=300%2C218 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/05/Screenshot-whendidiwork-inputs.png)
 
 ## What about privacy?
 

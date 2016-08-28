@@ -8,6 +8,7 @@ guid: http://brandonlehr.com/?p=1
 permalink: /hello-world/
 categories:
   - Introducing
+comments: true
 ---
 Well, I&#8217;ve finally done it. I started a WordPress Blog.
 
@@ -15,7 +16,7 @@ That&#8217;s not to say that I&#8217;m new to the blogging world. I started my f
 
 ## Living Hope<figure id="attachment_46" style="width: 854px" class="wp-caption alignnone">
 
-[<img class="img-rounded img-border wp-image-46 size-full" src="{{ site.baseurl }}/uploads/2015/05/screenshot-my-livinghope-e1431070572385.png?fit=640%2C556" alt="my-livinghope.blogspot.com" srcset="{{ site.baseurl }}/uploads/2015/05/screenshot-my-livinghope-e1431070572385.png?w=854 854w, {{ site.baseurl }}/uploads/2015/05/screenshot-my-livinghope-e1431070572385.png?resize=300%2C261 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](http://my-livinghope.blogspot.com)<figcaption class="wp-caption-text">[my-livinghope.blogspot.com](http://my-livinghope.blogspot.com)</figcaption></figure> 
+[<img class="img-rounded img-border" src="{{ site.baseurl }}/uploads/2015/05/screenshot-my-livinghope-e1431070572385.png?fit=640%2C556" alt="my-livinghope.blogspot.com" srcset="{{ site.baseurl }}/uploads/2015/05/screenshot-my-livinghope-e1431070572385.png?w=854 854w, {{ site.baseurl }}/uploads/2015/05/screenshot-my-livinghope-e1431070572385.png?resize=300%2C261 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](http://my-livinghope.blogspot.com)
 
 Most of my posts were of Christian book reviews and the occasional opinion piece. I spent a lot of time learning how blogging, and the whole internet, in general, worked. This was the initial spark that set me on fire for technology.
 

@@ -16,8 +16,9 @@ tags:
   - pinewood derby
   - raingutter regatta
 featured_image: /uploads/2016/06/pinewood.jpg
+comments: true
 ---
-[<img class="aligncenter size-full wp-image-523" src="{{ site.baseurl }}/uploads/2016/06/pinewood.jpg?fit=640%2C345" alt="PinewoodRaceDay" srcset="{{ site.baseurl }}/uploads/2016/06/pinewood.jpg?w=1275 1275w, {{ site.baseurl }}/uploads/2016/06/pinewood.jpg?resize=300%2C162 300w, {{ site.baseurl }}/uploads/2016/06/pinewood.jpg?resize=1024%2C553 1024w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/pinewood.jpg)
+[<img class="" src="{{ site.baseurl }}/uploads/2016/06/pinewood.jpg?fit=640%2C345" alt="PinewoodRaceDay" srcset="{{ site.baseurl }}/uploads/2016/06/pinewood.jpg?w=1275 1275w, {{ site.baseurl }}/uploads/2016/06/pinewood.jpg?resize=300%2C162 300w, {{ site.baseurl }}/uploads/2016/06/pinewood.jpg?resize=1024%2C553 1024w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/pinewood.jpg)
 
 Looking for a no-cost solution for running pinewood derby and raingutter regatta races?
 
@@ -39,23 +40,10 @@ Our pack is blessed to have a nice pinewood derby track with precision timers, b
 
 I wanted this solution to work as widely as possible, supporting tracks without timers as well as raingutter regatta races. To achieve this, there is a setting on the preferences page that allows converting to a points method. Everything works the same, just with entering scores from 1 to 4 for each heat, which will be totaled with the lowest score being the fastest.
 
-<div class="TT_wrapper">
-  <div class="TT_text">
-    <a class="TT_tweet_link" href="http://twitter.com/intent/tweet?text=Looking%20for%20a%20no-cost%20solution%20for%20running%20pinewood%20derby%20and%20raingutter%20regatta%20races%3F%20%20%23BSA%20%23CubScouts%20http%3A%2F%2Fwp.me%2Fp7bAxC-8e" target="_blank">Looking for a no-cost solution for running pinewood derby and raingutter regatta races? </a>
-  </div>
-  
-  <div class="TT_footer">
-    <div class="TT_byline">
-    </div>
-    
-    <div class="TT_tweet_link_wrapper">
-      <a class="TT_tweet_link" href="http://twitter.com/intent/tweet?text=Looking%20for%20a%20no-cost%20solution%20for%20running%20pinewood%20derby%20and%20raingutter%20regatta%20races%3F%20%20%23BSA%20%23CubScouts%20http%3A%2F%2Fwp.me%2Fp7bAxC-8e" target="_blank"><img src="{{ site.baseurl }}/plugins/tweetthis/assets/images/twitter-icons/bird1.png?w=640" alt="" data-recalc-dims="1" />Tweet This</a>
-    </div>
-    
-    <div style="clear: both; ">
-    </div>
-  </div>
-</div>
+
+
+<a class="tweet-this" href="http://twitter.com/intent/tweet?text=Looking%20for%20a%20no-cost%20solution%20for%20running%20pinewood%20derby%20and%20raingutter%20regatta%20races%3F%20%20%23BSA%20%23CubScouts%20{{ site.url }}{{ page.url }}" target="_blank">Looking for a no-cost solution for running pinewood derby and raingutter regatta races?  Tweet This! <span class="fa fa-twitter"></span></a>
+
 
 ## Ready to Race
 

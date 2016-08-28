@@ -12,8 +12,9 @@ categories:
 tags:
   - React.js
 featured_image: /uploads/2016/06/react_logo-300x300.png
+comments: true
 ---
-[<img class="img-rounded aligncenter wp-image-580 size-medium" src="{{ site.baseurl }}/uploads/2016/06/react_logo-300x300.png?fit=300%2C300" alt="react logo select box" srcset="{{ site.baseurl }}/uploads/2016/06/react_logo.png?resize=300%2C299 300w, http://i0.wp.com/brandonlehr.com/wp-content/uploads/2016/06/react_logo.png?resize=150%2C150 150w, {{ site.baseurl }}/uploads/2016/06/react_logo.png?w=598 598w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/react_logo.png)
+[<img class="img-md" src="{{ site.baseurl }}/uploads/2016/06/react_logo-300x300.png?fit=300%2C300" alt="react logo select box" srcset="{{ site.baseurl }}/uploads/2016/06/react_logo.png?resize=300%2C299 300w, {{ site.baseurl }}/uploads/2016/06/react_logo.png?resize=150%2C150 150w, {{ site.baseurl }}/uploads/2016/06/react_logo.png?w=598 598w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/react_logo.png)
 
 Maybe it&#8217;s just me, but the first time I built a select box in react, I was a little confused how it would work. When an option is selected, is it an onSelect event? How is the value entered into the state? Here is what I learned.
 

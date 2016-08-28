@@ -11,6 +11,7 @@ categories:
 tags:
   - React.js
 featured_image: /images/image-adsense-code.png
+comments: true
 ---
 I recently needed to incorporate Google AdSense ads in a react.js application I was building. If you have used AdSense before, then you are acquainted with the code that is generated. For example
 

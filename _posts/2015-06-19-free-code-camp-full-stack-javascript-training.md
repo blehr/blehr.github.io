@@ -12,12 +12,15 @@ categories:
 tags:
   - Free Code Camp
 featured_image: /uploads/2015/06/Screenshot-2015-06-19-at-6.48.09-PM.png
+comments: true
 ---
+<img src="{{ site.baseurl }}{{ page.featured_image }}" alt="freecodecamp" class="" />
+
 I recently enrolled in [Free Code Camp](http://www.freecodecamp.com/), a JavaScript Full Stack Developer training program. I&#8217;m always looking for a chance to improve my skills, so when I heard of the offer (and the price!), I was in.
 
 Don&#8217;t let the fact that the course is free, fool you into thinking that this isn&#8217;t a quality program. So far I&#8217;ve enjoyed it immensely. As you can see, this course is meant to lead you into a career as a full stack JavaScript developer.
 
-[<img class="img-rounded aligncenter wp-image-139 size-large hoverZoomLink" src="{{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM-1024x590.png?fit=640%2C369" alt="Free Code Camp - What you'll learn" srcset="{{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png?resize=1024%2C590 1024w, {{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png?resize=300%2C173 300w, {{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png?w=1136 1136w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png)
+[<img class="img-rounded" src="{{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM-1024x590.png?fit=640%2C369" alt="Free Code Camp - What you'll learn" srcset="{{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png?resize=1024%2C590 1024w, {{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png?resize=300%2C173 300w, {{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png?w=1136 1136w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/06/Screenshot-2015-06-19-at-5.46.47-PM.png)
 
 ## How Does it Work?
 

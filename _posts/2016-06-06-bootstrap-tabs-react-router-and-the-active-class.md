@@ -14,6 +14,7 @@ tags:
   - react-router
   - React.js
 featured_image: /uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png
+comments: true
 ---
 I love using bootstrap in my projects. Whether it is the grid system, the styling, or the components, it just makes it quick and easy to get something up and running.
 
@@ -21,7 +22,7 @@ I&#8217;ve been playing around with react.js a lot lately and have encountered s
 
 &nbsp;
 
-[<img class="aligncenter wp-image-567 size-full" src="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?fit=575%2C227" alt="image of Bootstrap tabs" srcset="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?w=575 575w, {{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?resize=300%2C118 300w" sizes="(max-width: 575px) 100vw, 575px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png)
+[<img class="" src="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?fit=575%2C227" alt="image of Bootstrap tabs" srcset="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?w=575 575w, {{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?resize=300%2C118 300w" sizes="(max-width: 575px) 100vw, 575px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png)
 
 <!--more-->
 

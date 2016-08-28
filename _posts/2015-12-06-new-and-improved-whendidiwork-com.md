@@ -14,11 +14,13 @@ tags:
   - Angular
   - nodeJS
   - whendidiwork
-featured_image: /images/whendidiwork-logo.png
+featured_image: /images/whendidiwork_icon_ribbon.png
+comments: true
 ---
-I have [written before](http://brandonlehr.com/whendidiwork-a-time-clock-app/) about my time tracking app, [whendidiwork](http://whendidiwork.com/), which is especially great for third shift workers. I still use it daily for recording my work and project hours to my Google calendar and a Google sheet.
+<img src="{{ site.baseurl }}{{ page.featured_image }}" alt="whendidiwork-logo" class="img-md" />
 
-[<img class="img-rounded img-border aligncenter wp-image-237 size-large" src="{{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny-1024x819.png?fit=640%2C512" alt="screenshot whendidiwork" srcset="{{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?resize=1024%2C819 1024w, {{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?resize=300%2C240 300w, {{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?w=1366 1366w, {{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png)
+I have [written before]({% post_url 2015-05-12-whendidiwork-a-time-clock-app %}) about my time tracking app, [whendidiwork](http://whendidiwork.com/), which is especially great for third shift workers. I still use it daily for recording my work and project hours to my Google calendar and a Google sheet.
+
 
 ## New Release New Features
 
@@ -27,6 +29,9 @@ Today I am proud to announce the release of a major update. The app has been re-
 This time around I&#8217;m using a sweet <a href="https://github.com/dalelotts/angular-bootstrap-datetimepicker" data-pjax="#js-repo-pjax-container">angular-bootstrap-datetimepicker</a> that allows date and time to be easily selected from the same input rather than having to use separate inputs as before. This keeps the form smaller and the selections easier!
 
 My favorite addition has been the ability to view sheet data directly. I have to admit, that previously when I made events, I was nervous whether or not they were being updated to the sheet as well. Seeing is believing! With a click of the view sheet button, the data will &#8220;open up&#8221;, directly below. No more worrying!
+
+
+[<img class="img-rounded img-border" src="{{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny-1024x819.png?fit=640%2C512" alt="screenshot whendidiwork" srcset="{{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?resize=1024%2C819 1024w, {{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?resize=300%2C240 300w, {{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?w=1366 1366w, {{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2015/12/screenshot-whendidiwork-full-tiny.png)
 
 ## The New whendidiwork.com
 

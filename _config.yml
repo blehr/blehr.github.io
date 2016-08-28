@@ -37,7 +37,7 @@ social:
     "https://github.com/blehr"  
   ]
   
-
+disqus_shortname: brandonlehr.disqus.com
 
 # Build settings
 markdown: kramdown

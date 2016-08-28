@@ -13,6 +13,7 @@ tags:
   - on a dare
   - Stupid
 featured_image: /uploads/2015/09/ghostpepper-1.png
+comments: true
 ---
 I showed them&#8230; I guess
 
