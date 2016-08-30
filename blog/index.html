@@ -54,7 +54,12 @@ breadcrumb: Blog
 
 
                         {% if post.featured_image %}
-							<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>
+							<!--<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>-->
+						{% endif %}
+						
+						{% if post.featured_image %}
+							<img src="{{post.featured_image}}" class="blog-page--featured-image" />
+							<!--<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>-->
 						{% endif %}
 
 

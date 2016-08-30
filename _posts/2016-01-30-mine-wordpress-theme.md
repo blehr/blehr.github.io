@@ -10,7 +10,7 @@ categories:
   - WordPress
 tags:
   - mine
-featured_image: /uploads/2016/01/mine-screenshot_compressed.png
+featured_image: /uploads/2016/01/mine-screenshot_compressed-featured-image.png
 comments: true
 ---
 Why stop with just one WordPress theme?
