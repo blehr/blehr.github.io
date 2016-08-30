@@ -128,11 +128,9 @@ gulp.task('watch', function(){
   gulp.watch('_app/styles/**/*.scss', ['build:styles']); 
   gulp.watch('_app/scripts/**/*.js', ['build:scripts']); 
   gulp.watch('_app/images/**/*.+(png|jpg|gif|svg)', ['build:images']);
-  // below line needs each folder that needs to be watched ex. about, blog, ect.
-  // would like to clean this up!
-  gulp.watch(['index.html', '_layouts/*.html', '_posts/*',  '_drafts/*', '_includes/*.html',  'about/*.html', 'portfolio/*.html', 'blog/*.html', '!_sites/**/*.html' ], ['rebuild']); // '**/*.html'
+  gulp.watch(['*.html', '_posts/*',  '_drafts/*', '*/*.html', '!_sites/**/*.html' ], ['rebuild']); 
 });
-
+ 
 
 // default
 gulp.task('default', function (cb) {
