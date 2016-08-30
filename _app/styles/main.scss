@@ -1,0 +1,180 @@
+// entry scss file
+// @import any other files needed
+
+
+@charset "utf-8";
+
+$body-color: #454A57;
+
+
+@import "_navbar.scss";
+
+@import "_post-helpers.scss";
+
+@import "_angled-layout.scss";
+
+@import "_profile-widget.scss";
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.post a {
+	font-weight: 700;
+}
+
+.breadcrumb {
+	background: transparent;
+}
+
+pre {
+	overflow: auto !important;
+}
+
+.header-background {
+    background: url(//res.cloudinary.com/dtthr02eh/image/upload/v1472245479/header-image_huajhv.jpg) center / cover;
+    height: 600px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.page-title-div {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	color: #E7E7E7;
+	z-index: 2;
+	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.page-title-in-header {
+	width: 70%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.blog {
+    max-width: 600px;
+}
+
+.blog-page-post-title {
+	margin-top: 0;
+}
+
+.post {
+	margin-bottom: 25px;
+}
+
+.post-meta,
+.breadcrumb > li > a {
+	color: #777;
+}
+
+
+.footer-social-icons a,
+.sidebar-social-icons a {
+	margin-right: 8px;
+	font-size: 42px;
+	color: #e7e7e7;
+}
+
+.footer-social-icons a:hover,
+.social-icons a:hover,
+.sidebar-social-icons a:hover {
+	color: #333;
+}
+
+#footer {
+    margin-top: 160px;
+}
+
+.footer-elem {
+	padding-top: 30px;
+}
+
+.bottom-margin {
+    margin-bottom: 75px;
+}
+
+.gallery-image img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-image--blog-page {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
+	background-position: center;
+	background-size: cover;
+}
+
+.post-header {
+	margin-bottom: 10px;
+}
+
+.post-navigation {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.profile-sidebar img {
+	margin-bottom: 10px;
+}
+
+
+
+.post-navigation a {
+	padding-top: 5px;
+	font-weight: 700;
+}
+
+
+@media (max-width: 900px) {
+	.content {
+		flex-direction: column;
+		top: -75px;
+	}
+	
+	.content-text,
+	.content-text-even {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.page-title-in-header {
+		width: 90%;
+		font-size: 2em;
+	}
+
+}
+
+@media (max-width: 590px) {
+	.post-navigation {
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 500px) {
+	.blog-page-post-title {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 375px) {
+	.profile-widget img {
+		float: none;
+	}
+}
