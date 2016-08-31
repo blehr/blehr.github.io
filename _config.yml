@@ -42,7 +42,17 @@ disqus_shortname: brandonlehr.disqus.com
 # Build settings
 markdown: kramdown
 #Gems
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag, jekyll-mentions, jemoji, jekyll-redirect-from, jekyll-sitemap, jekyll-feed]
+gems: [
+  jekyll-paginate, 
+  jekyll-sitemap, 
+  jekyll-seo-tag, 
+  jekyll-mentions, 
+  jemoji, 
+  jekyll-redirect-from, 
+  jekyll-sitemap, 
+  jekyll-feed
+]
+
 paginate: 10
 paginate_path: "/blog/page:num/"
 exclude: [
@@ -50,4 +60,4 @@ exclude: [
   node_modules,
   gulpfile.js,
   _app,
-  ]
+]

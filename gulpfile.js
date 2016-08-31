@@ -12,6 +12,7 @@ var cache        = require('gulp-cache');
 var child        = require('child_process');
 var runSequence  = require('run-sequence');
 var browserSync  = require('browser-sync');
+var rename       = require('gulp-rename');
 
 
 /// Uses Sass compiler to process styles, adds vendor prefixes, minifies,
@@ -21,6 +22,7 @@ gulp.task('styles', function() {
     .pipe(sass())
     .pipe(autoprefixer({browsers: ['last 2 versions', 'ie >= 10']}))
     .pipe(cssnano())
+    .pipe(rename('main.min.css'))
     .pipe(gulp.dest('css'))
     .pipe(gulp.dest('_site/css'))
     .pipe(browserSync.reload({stream:true}))
@@ -32,8 +34,8 @@ gulp.task('styles', function() {
 // the appropriate location(s).
 gulp.task('scripts', function() {
   return gulp.src('_app/scripts/**/*.js')
-    // .pipe(concat('main.js'))
     .pipe(uglify())
+    .pipe(rename('main.min.js'))
     .pipe(gulp.dest('js'))
     .pipe(gulp.dest('_site/js'))
     .pipe(browserSync.reload({stream:true}))
@@ -54,8 +56,8 @@ gulp.task('images', function() {
 });
 
 // build jekyll
-gulp.task('build', (done) => {
-  return child.spawn('jekyll', ['build'], { stdio: 'inherit'})
+gulp.task('build', function(done) {
+  return child.spawn('bundle', ['exec', 'jekyll', 'build'], { stdio: 'inherit'})
     .on('close', done);
 });
 
