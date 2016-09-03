@@ -12,6 +12,7 @@ categories:
 tags:
   - React.js
 featured_image: /uploads/2016/06/react_logo-300x300.png
+featured_image_max_width: 300px
 comments: true
 ---
 [<img class="img-md" src="{{ site.baseurl }}/uploads/2016/06/react_logo-300x300.png?fit=300%2C300" alt="react logo select box" srcset="{{ site.baseurl }}/uploads/2016/06/react_logo.png?resize=300%2C299 300w, {{ site.baseurl }}/uploads/2016/06/react_logo.png?resize=150%2C150 150w, {{ site.baseurl }}/uploads/2016/06/react_logo.png?w=598 598w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/react_logo.png)

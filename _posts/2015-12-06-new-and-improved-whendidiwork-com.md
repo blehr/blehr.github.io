@@ -15,6 +15,7 @@ tags:
   - nodeJS
   - whendidiwork
 featured_image: /images/whendidiwork_icon_ribbon.png
+featured_image_max_width: 300px
 comments: true
 ---
 <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="whendidiwork-logo" class="img-md" />

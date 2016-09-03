@@ -52,16 +52,19 @@ breadcrumb: Blog
                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                         </h2>
 
-
-                        {% if post.featured_image %}
-							<!--<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>-->
-						{% endif %}
-						
 						{% if post.featured_image %}
-							<img src="{{post.featured_image}}" class="blog-page--featured-image" />
-							<!--<div class="featured-image--blog-page" style="background-image: url({{post.featured_image}})"></div>-->
-						{% endif %}
 
+							<img src="{{post.featured_image}}" 
+							
+							{% if post.featured_image_max_width %} 
+							
+							style="max-width:{{ post.featured_image_max_width }};"
+							
+							{% endif %}
+							
+							class="blog-page--featured-image" />
+							
+						{% endif %}
 
 						<!--{{ post.excerpt }}-->
 

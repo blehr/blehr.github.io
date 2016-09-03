@@ -12,6 +12,7 @@ categories:
 tags:
   - whendidiwork
 featured_image: /images/whendidiwork-logo.png
+featured_image_max_width: 300px
 comments: true
 ---
 <div class="well well-lg">

@@ -12,7 +12,8 @@ tags:
   - Ghost Pepper
   - on a dare
   - Stupid
-featured_image: /uploads/2015/09/ghostpepper-1.png
+featured_image: /uploads/2015/09/ghostpepper-1-crop.png
+featured_image_max_width: 300px
 comments: true
 ---
 I showed them&#8230; I guess

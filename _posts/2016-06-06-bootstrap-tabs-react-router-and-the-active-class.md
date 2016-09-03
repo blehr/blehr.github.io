@@ -22,15 +22,17 @@ I&#8217;ve been playing around with react.js a lot lately and have encountered s
 
 &nbsp;
 
-[<img class="" src="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?fit=575%2C227" alt="image of Bootstrap tabs" srcset="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?w=575 575w, {{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?resize=300%2C118 300w" sizes="(max-width: 575px) 100vw, 575px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png)
+<img class="" style="max-width:575px;" src="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?fit=575%2C227" alt="image of Bootstrap tabs" srcset="{{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?w=575 575w, {{ site.baseurl }}/uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png?resize=300%2C118 300w" sizes="(max-width: 575px) 100vw, 575px" data-recalc-dims="1" />
 
-<!--more-->
 
 React-router supplies a Link component that knows when it is active and allows that link to be styled appropriately using either inline styles or a className. This seems like a quick solution, but notice the active style is applied to the link and we need it on the `<li>`.
 
-<pre><span class="pl-k">&lt;</span>li<span class="pl-k">&gt;&lt;</span><span class="pl-c1">Link</span> to<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>/about<span class="pl-pds">"</span></span> activeStyle<span class="pl-k">=</span>{{ color<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>red<span class="pl-pds">'</span></span> }}<span class="pl-k">&gt;</span>About<span class="pl-k">&lt;</span><span class="pl-k">/</span><span class="pl-c1">Link</span><span class="pl-k">&gt;&lt;</span><span class="pl-k">/</span>li<span class="pl-k">&gt;</span></pre>
+{% raw %}
+<pre>&lt;li>&lt;Link to="/about" activeStyle={{ color: 'red' }}>About&lt;/Link>&lt;/li></pre>
 
-<pre><span class="pl-k">&lt;</span>li<span class="pl-k">&gt;&lt;</span><span class="pl-c1">Link</span> to<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>/about<span class="pl-pds">"</span></span> activeClassName<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>active<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>About<span class="pl-k">&lt;</span><span class="pl-k">/</span><span class="pl-c1">Link</span><span class="pl-k">&gt;&lt;</span><span class="pl-k">/</span>li<span class="pl-k">&gt;</span></pre>
+
+<pre>&lt;li>&lt;Link to="/about" activeClassName="active">About&lt;/Link>&lt;/li></pre>
+{% endraw %}
 
 ## How do I fix this?
 
