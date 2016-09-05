@@ -17,6 +17,7 @@ tags:
 featured_image: /images/whendidiwork_icon_ribbon.png
 featured_image_max_width: 300px
 comments: true
+description: An update to the whendidiwork time tracking app
 ---
 <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="whendidiwork-logo" class="img-md" />
 

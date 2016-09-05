@@ -9,7 +9,12 @@ permalink: /hello-world/
 categories:
   - Introducing
 comments: true
+description: Announcing my move to WordPress
 ---
+<div class="well well-lg">
+  <strong>Update 9/5/2016 </strong><br>This blog is now created with <a href="https://jekyllrb.com/" >Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub-Pages</a>
+</div>
+
 Well, I&#8217;ve finally done it. I started a WordPress Blog.
 
 That&#8217;s not to say that I&#8217;m new to the blogging world. I started my first Blogger blog back in 2008.

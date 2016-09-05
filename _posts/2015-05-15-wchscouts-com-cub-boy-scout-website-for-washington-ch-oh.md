@@ -16,6 +16,7 @@ tags:
   - wchscouts.com
 featured_image: /uploads/2015/05/wchscouts_scrn_sht-1024x574-1024x574.png
 comments: true
+description: The building of wchscouts.com
 ---
 ## Does something truly exist if it doesn&#8217;t have a website?
 

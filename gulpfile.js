@@ -57,7 +57,7 @@ gulp.task('images', function() {
 
 // build jekyll
 gulp.task('build', function(done) {
-  return child.spawn('bundle', ['exec', 'jekyll', 'build'], { stdio: 'inherit'})
+  return child.spawn('bundle', ['exec', 'jekyll', 'build', '--drafts'], { stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -120,19 +120,19 @@ gulp.task('browser-sync', function() {
       port: 8081
     },
   port: 8082
-  
+
   });
 });
 
 
 
 gulp.task('watch', function(){
-  gulp.watch('_app/styles/**/*.scss', ['build:styles']); 
-  gulp.watch('_app/scripts/**/*.js', ['build:scripts']); 
+  gulp.watch('_app/styles/**/*.scss', ['build:styles']);
+  gulp.watch('_app/scripts/**/*.js', ['build:scripts']);
   gulp.watch('_app/images/**/*.+(png|jpg|gif|svg)', ['build:images']);
-  gulp.watch(['*.html', '_posts/*',  '_drafts/*', '*/*.html', '!_sites/**/*.html' ], ['rebuild']); 
+  gulp.watch(['*.html', '_posts/*',  '_drafts/*', '*/*.html', '!_sites/**/*.html' ], ['rebuild']);
 });
- 
+
 
 // default
 gulp.task('default', function (cb) {
@@ -164,6 +164,3 @@ gulp.task('portfolio-js', function() {
     .pipe(gulp.dest('portfolio'))
     .on('error', gutil.log);
 });
-
-
-

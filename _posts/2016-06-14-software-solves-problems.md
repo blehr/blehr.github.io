@@ -20,6 +20,7 @@ tags:
   - wchscouts.com
   - whendidiwork
 comments: true
+description: What do you program? To solve problems.
 ---
 ## What Do You Like Most About Programming?
 

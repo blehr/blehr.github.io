@@ -13,6 +13,7 @@ tags:
   - Pummel
 featured_image: /uploads/2015/11/Screenshot-2015-11-30-at-3.10.36-AM.png
 comments: true
+description: The Pummel WordPress Theme
 ---
 <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="pummel" class="" />
 

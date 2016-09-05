@@ -14,6 +14,7 @@ tags:
   - tips
 featured_image: /uploads/2016/06/Screenshot-061616-200931.png
 comments: true
+description: Fix the terminal to allow the rendering special characters
 ---
 
 

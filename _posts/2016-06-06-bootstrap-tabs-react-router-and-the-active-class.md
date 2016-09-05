@@ -15,6 +15,7 @@ tags:
   - React.js
 featured_image: /uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png
 comments: true
+description: How to fix the Bootstrap Tab display the active tab in reactjs.
 ---
 I love using bootstrap in my projects. Whether it is the grid system, the styling, or the components, it just makes it quick and easy to get something up and running.
 

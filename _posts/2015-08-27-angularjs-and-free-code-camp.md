@@ -14,6 +14,7 @@ tags:
   - Free Code Camp
 featured_image: /uploads/2015/08/success-angular.jpg
 comments: true
+description: The difficulties of learning Angular JS in Free Code Camp
 ---
 <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="angular kid" class="" />
 

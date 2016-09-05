@@ -17,6 +17,7 @@ tags:
   - raingutter regatta
 featured_image: /uploads/2016/06/pinewood.jpg
 comments: true
+description: Free Pinewood derby and Raingutter regatta software.
 ---
 [<img class="" src="{{ site.baseurl }}/uploads/2016/06/pinewood.jpg?fit=640%2C345" alt="PinewoodRaceDay" srcset="{{ site.baseurl }}/uploads/2016/06/pinewood.jpg?w=1275 1275w, {{ site.baseurl }}/uploads/2016/06/pinewood.jpg?resize=300%2C162 300w, {{ site.baseurl }}/uploads/2016/06/pinewood.jpg?resize=1024%2C553 1024w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />]({{ site.baseurl }}/uploads/2016/06/pinewood.jpg)
 

@@ -14,6 +14,7 @@ tags:
 featured_image: /images/whendidiwork-logo.png
 featured_image_max_width: 300px
 comments: true
+description: The whendidiwork time tracking application - perfect for Third Shifters
 ---
 <div class="well well-lg">
   <strong>Update 12/5/2015 </strong>I have released an updated version of the app with new features! When you&#8217;re finished here, head over and <a href="{{ site.url }}{% post_url 2015-12-06-new-and-improved-whendidiwork-com %}">learn more</a> about the new whendidiwork!

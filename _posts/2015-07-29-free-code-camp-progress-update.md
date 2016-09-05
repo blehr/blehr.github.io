@@ -14,6 +14,7 @@ tags:
   - Free Code Camp
 featured_image: /uploads/2015/07/Screenshot-2015-07-29-at-6.14.25-PM.png
 comments: true
+description: An update on my Free Code Camp progress
 ---
 It&#8217;s been just over a month since [I last wrote]({% post_url 2015-06-19-free-code-camp-full-stack-javascript-training %}) of my adventures in Free Code Camp. Since then I have been trudging along, making use of every free moment I can get, to learn and build. All the hard work is paying off, and as of now, I have completed six of the eight ziplines!
 

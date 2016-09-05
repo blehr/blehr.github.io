@@ -15,6 +15,7 @@ tags:
 featured_image: /uploads/2015/09/ghostpepper-1-crop.png
 featured_image_max_width: 300px
 comments: true
+description: Brandon Lehr foolishly eating a ghost pepper
 ---
 I showed them&#8230; I guess
 
@@ -24,5 +25,5 @@ At least my kids loved it!<!--more-->
 
 
 
-  
+
 More about <a href="https://en.wikipedia.org/wiki/Bhut_jolokia" target="_blank">ghost peppers</a>, (Bhut jolokia)

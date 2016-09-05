@@ -13,6 +13,7 @@ tags:
   - Free Code Camp
 featured_image: /uploads/2015/06/Screenshot-2015-06-19-at-6.48.09-PM.png
 comments: true
+description: Free Code Camp, a new way to learn JavaScript!
 ---
 <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="freecodecamp" class="" />
 
