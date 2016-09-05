@@ -1,10 +1,24 @@
 <div class="footer-background">
 	<div class="container">
 		<div id="footer" class="row">
-			<div class="col-sm-4 text-center">
+
+			<div class="col-sm-4 col-sm-push-8 text-center">
+				<div class="featured-posts">
+					<h4>Featured Posts</h4>
+					<ul class="list-unstyled">
+						<li><a href="{% post_url 2015-05-12-whendidiwork-a-time-clock-app %}" >Whendidiwork.com</a></li>
+						<li><a href="{% post_url 2016-06-01-pinewoodraceday %}" >PinewoodRaceDay.com</a></li>
+						<li><a href="{% post_url 2015-12-02-introducing-pummel-wordpress-theme %}" >Pummel WordPress Theme</a></li>
+						<li><a href="{% post_url 2015-05-15-wchscouts-com-cub-boy-scout-website-for-washington-ch-oh %}" >Scout website for 5112</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-sm-pull-4 text-center">
 				<p class="footer-elem"><a href="/"><i class="fa fa-copyright" aria-hidden="true"></i> 2016 Brandon Lehr</a></p>
 			</div>
-			<div class="col-sm-4 text-center">
+
+			<div class="col-sm-4 col-sm-pull-4 text-center">
 				<div class="footer-social-icons" >
 					<a href="https://twitter.com/brandonlehr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					<a href="https://github.com/blehr"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -12,12 +26,7 @@
 					<a href="/https://www.linkedin.com/in/brandonlehr/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					<a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
 				</div>
-				
-			</div>
-			<div class="col-sm-4">
-				
 			</div>
 		</div>
 	</div>
 </div>
-

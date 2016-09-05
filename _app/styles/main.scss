@@ -83,6 +83,10 @@ pre {
 }
 
 
+.footer-social-icons {
+	margin-top: 65px;
+}
+
 .sidebar-social-icons a {
 	margin-right: 3px;
 	font-size: 42px;
@@ -103,11 +107,25 @@ pre {
 }
 
 #footer {
-    margin-top: 160px;
+    margin-top: 80px;
 }
 
 .footer-elem {
-	padding-top: 30px;
+	padding-top: 90px;
+}
+
+.featured-posts {
+	width: 190px;
+	margin: auto;
+}
+
+.featured-posts li {
+	margin-left: 10px;
+	font-weight: 400;
+}
+
+.featured-posts li a {
+	color: #e7e7e7;
 }
 
 .bottom-margin {
@@ -197,6 +215,15 @@ pre {
 		font-size: 2em;
 	}
 
+}
+
+@media (max-width: 767px) {
+	.footer-social-icons {
+		margin-top: 0;
+	}
+	.footer-elem {
+		padding-top: 5px;
+	}
 }
 
 @media (max-width: 590px) {
