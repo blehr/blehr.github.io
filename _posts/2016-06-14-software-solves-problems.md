@@ -7,7 +7,8 @@ layout: post
 guid: http://brandonlehr.com/?p=601
 permalink: /software-solves-problems/
 categories:
-  - Learning to Code
+  - learntocode
+  - ibuiltthis
 tags:
   - Awana
   - Boy Scouts

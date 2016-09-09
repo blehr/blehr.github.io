@@ -7,7 +7,8 @@ layout: post
 guid: http://brandonlehr.com/?p=543
 permalink: /how-to-incorporate-google-adsense-react-js/
 categories:
-  - JavaScript
+  - javascript
+  - reactjs
 tags:
   - React.js
 featured_image: /images/image-adsense-code.png

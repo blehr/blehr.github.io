@@ -7,8 +7,9 @@ layout: post
 guid: http://brandonlehr.com/?p=134
 permalink: /free-code-camp-full-stack-javascript-training/
 categories:
-  - JavaScript
-  - Learning to Code
+  - javascript
+  - learntocode
+  - freecodecamp
 tags:
   - Free Code Camp
 featured_image: /uploads/2015/06/Screenshot-2015-06-19-at-6.48.09-PM.png

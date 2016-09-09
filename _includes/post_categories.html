@@ -1,0 +1,8 @@
+{% if post.categories.size > 0 %}
+<p class="post-categories">
+  <i class="fa fa-tags"></i>
+  {% for category in post.categories | sort %}
+    <a href="{{site.baseurl}}/categories/{{ category }}">{{ site.data.categories[category].name }}</a>{% if forloop.last == false %} / {% endif %}
+  {% endfor %}
+</p>
+{% endif %}

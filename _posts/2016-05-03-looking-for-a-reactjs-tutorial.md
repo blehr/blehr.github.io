@@ -7,8 +7,9 @@ layout: post
 guid: http://brandonlehr.com/?p=303
 permalink: /looking-for-a-reactjs-tutorial/
 categories:
-  - JavaScript
-  - Learning to Code
+  - javascript
+  - learntocode
+  - reactjs
 tags:
   - React.js
 featured_image: /uploads/2016/04/reactjsprogram.png

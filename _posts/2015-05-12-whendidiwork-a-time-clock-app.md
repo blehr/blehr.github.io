@@ -7,8 +7,7 @@ layout: post
 guid: http://brandonlehr.com/?p=74
 permalink: /whendidiwork-a-time-clock-app/
 categories:
-  - Applications and Websites
-  - Introducing
+  - ibuiltthis
 tags:
   - whendidiwork
 featured_image: /images/whendidiwork-logo.png

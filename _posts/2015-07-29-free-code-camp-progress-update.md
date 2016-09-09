@@ -7,8 +7,9 @@ layout: post
 guid: http://brandonlehr.com/?p=151
 permalink: /free-code-camp-progress-update/
 categories:
-  - JavaScript
-  - Learning to Code
+  - javascript
+  - learntocode
+  - freecodecamp
 tags:
   - CodePen
   - Free Code Camp

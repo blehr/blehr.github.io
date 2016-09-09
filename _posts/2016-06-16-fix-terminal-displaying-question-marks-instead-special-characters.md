@@ -7,7 +7,7 @@ layout: post
 guid: http://brandonlehr.com/?p=619
 permalink: /fix-terminal-displaying-question-marks-instead-special-characters/
 categories:
-  - Learning to Code
+  - learntocode
 tags:
   - Free Code Camp
   - React.js

@@ -7,7 +7,8 @@ layout: post
 guid: http://brandonlehr.com/?p=268
 permalink: /mine-wordpress-theme/
 categories:
-  - WordPress
+  - wordpress
+  - ibuiltthis
 tags:
   - mine
 featured_image: /uploads/2016/01/mine-screenshot_compressed-featured-image.png

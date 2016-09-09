@@ -7,8 +7,9 @@ layout: post
 guid: http://brandonlehr.com/?p=573
 permalink: /building-react-select-box-component/
 categories:
-  - JavaScript
-  - Learning to Code
+  - javascript
+  - learntocode
+  - reactjs
 tags:
   - React.js
 featured_image: /uploads/2016/06/react_logo-300x300.png

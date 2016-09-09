@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Blog
-navigation_weight: 2
-breadcrumb: Blog
 ---
 
-{% include normal_layout.html %}
+{% include title_in_header.html %}
 
-	<div class="container bottom-margin">
+<div class="container bottom-margin">
 
 
 		<div class="row">
@@ -19,9 +16,9 @@ breadcrumb: Blog
 
 		<div class="row">
 			<div class="col-sm-8 col-md-9">
-
+			    
 				<div class="blog">
-					 {% for post in paginator.posts %}
+					 {% for post in site.categories[page.category] %}
 					<div class="post">
 
 						<p class="text-muted">
@@ -47,21 +44,19 @@ breadcrumb: Blog
 						{% endif %}
 
 						<!--{{ post.excerpt }}-->
-
-						<div class="small">
+                        
+                        <div class="small">
                           {% include post_categories.html tags-class="small" %}
                         </div>
-					
+
 					</div>
 					<hr>
 					{% endfor %}
 				</div>
-				{% include pagination.html %}
+				<!--{% include pagination.html %}-->
 			</div>
 
 			{% include sidebar.html %}
 
 		</div>
 	</div>
-
-

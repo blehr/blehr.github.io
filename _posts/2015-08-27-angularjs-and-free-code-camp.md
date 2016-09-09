@@ -7,8 +7,10 @@ layout: post
 guid: http://brandonlehr.com/?p=192
 permalink: /angularjs-and-free-code-camp/
 categories:
-  - JavaScript
-  - Learning to Code
+  - javascript
+  - learntocode
+  - angular
+  - freecodecamp
 tags:
   - Angular
   - Free Code Camp

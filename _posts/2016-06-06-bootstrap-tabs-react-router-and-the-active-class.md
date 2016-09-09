@@ -7,8 +7,10 @@ layout: post
 guid: http://brandonlehr.com/?p=560
 permalink: /bootstrap-tabs-react-router-and-the-active-class/
 categories:
-  - JavaScript
-  - Learning to Code
+  - javascript
+  - learntocode
+  - reactjs
+  - bootstrap
 tags:
   - bootstrap
   - react-router

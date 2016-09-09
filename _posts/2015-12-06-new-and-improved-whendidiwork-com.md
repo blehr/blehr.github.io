@@ -7,9 +7,9 @@ layout: post
 guid: http://brandonlehr.com/?p=235
 permalink: /new-and-improved-whendidiwork-com/
 categories:
-  - Applications and Websites
-  - JavaScript
-  - whendidiwork
+  - ibuiltthis
+  - javascript
+  - angular
 tags:
   - Angular
   - nodeJS

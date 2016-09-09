@@ -7,7 +7,7 @@ layout: post
 guid: http://brandonlehr.com/?p=1
 permalink: /hello-world/
 categories:
-  - Introducing
+  - ibuiltthis
 comments: true
 description: Announcing my move to WordPress
 ---

@@ -7,7 +7,7 @@ layout: post
 guid: http://brandonlehr.com/?p=205
 permalink: /things-we-do-on-a-dare-ghost-pepper/
 categories:
-  - Foolish
+  - foolish
 tags:
   - Ghost Pepper
   - on a dare

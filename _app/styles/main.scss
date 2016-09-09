@@ -36,8 +36,14 @@ a {
     text-decoration: none;
 }
 
-.post a {
+.post a,
+.categories-widget {
 	font-weight: 700;
+}
+
+.post-categories,
+.post-categories a {
+	font-weight: normal;
 }
 
 .breadcrumb {

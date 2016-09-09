@@ -1,0 +1,12 @@
+<div class="categories-widget">
+    <h4>Categories</h4>
+    <ul>
+      {% assign categories = site.categories | sort 0 %}
+      {% for cat_item in categories %}
+      {% assign category = (cat_item | first) %}
+      <li>
+        <a href="{{site.baseurl}}/categories/{{category}}" >{{site.data.categories[category].name}}</a> ({{site.categories[category].size}})
+      </li>
+      {% endfor %}
+    </ul>
+</div>

@@ -7,8 +7,7 @@ layout: post
 guid: http://brandonlehr.com/?p=510
 permalink: /pinewoodraceday/
 categories:
-  - Applications and Websites
-  - Introducing
+  - ibuiltthis
 tags:
   - Awana
   - Boy Scouts

@@ -130,7 +130,7 @@ gulp.task('watch', function(){
   gulp.watch('_app/styles/**/*.scss', ['build:styles']);
   gulp.watch('_app/scripts/**/*.js', ['build:scripts']);
   gulp.watch('_app/images/**/*.+(png|jpg|gif|svg)', ['build:images']);
-  gulp.watch(['*.html', '_posts/*',  '_drafts/*', '*/*.html', '!_sites/**/*.html' ], ['rebuild']);
+  gulp.watch(['*.html', '_posts/*',  '_drafts/*', '*/*.html', '!_sites/**/*.html', '*/*.md' ], ['rebuild']);
 });
 
 
