@@ -8,38 +8,28 @@ layout: default
 	<div class="container bottom-margin">
 		<div class="row">
 			<div class="col-sm-12">
-			
 				<ol class="breadcrumb">
 				  <li><a href="/">Home</a></li>
 				  <li><a href="/blog">Blog</a></li>
 				  <li class="active"><a href="{{ page.url }}" >{{ page.title | escape }}</a></li>
 				</ol>
-				
 				<hr>
 			</div>
-			
 		</div>
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 				<article itemscope itemtype="http://schema.org/BlogPosting">
-					
 					<header class="post-header">
-			
 					  	<p class="post-meta lead"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
 					  	{% assign post = page %}
 					  	{% include post_categories.html %}
-						
 					</header>
-					
 					<div class="post">
-						
 					  {{ content }}
-					
 					</div>
 				</article>
 				<!--profile-widget-->
 				{% include profile.html %}
-				
 				<!--previous and next post-->
 				<div class="post-navigation clearfix">
 					{% if page.previous != nil %}
@@ -49,13 +39,8 @@ layout: default
 					<a href="{{ site.baseurl }}{{ page.next.url }}" class="pull-right text-right" >{{page.next.title}} <span class="fa fa-angle-double-right"></span></a>
 					{% endif %}
 				</div>
-				
 				{% include disqus_comments.html %}
-				
 			</div>
-			
-			
-	
 		</div>
 	</div>
 

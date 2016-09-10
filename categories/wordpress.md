@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Posts About WordPress
+title: WordPress
 category: wordpress
 permalink: /categories/wordpress/
 breadcrumb: WordPress

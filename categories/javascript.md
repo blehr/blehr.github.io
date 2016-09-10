@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Posts About JavaScript
+title: JavaScript
 category: javascript
 permalink: /categories/javascript/
 breadcrumb: JavaScript

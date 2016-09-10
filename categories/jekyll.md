@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Posts About Jekyll
+title: Jekyll
 category: jekyll
 permalink: /categories/jekyll/
 breadcrumb: Jekyll

@@ -5,58 +5,38 @@ layout: default
 {% include title_in_header.html %}
 
 <div class="container bottom-margin">
-
-
 		<div class="row">
 			<div class="col-sm-12">
 				{% include breadcrumb.html %}
 				<hr>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-sm-8 col-md-9">
-			    
 				<div class="blog">
 					 {% for post in site.categories[page.category] %}
 					<div class="post">
-
 						<p class="text-muted">
 						    <span class="lead post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 						</p>
-
 						<h2 class="blog-page-post-title">
                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                         </h2>
-
 						{% if post.featured_image %}
-
 							<img src="{{post.featured_image}}" 
-							
 							{% if post.featured_image_max_width %} 
-							
 							style="max-width:{{ post.featured_image_max_width }};"
-							
 							{% endif %}
-							
 							class="blog-page--featured-image" />
-							
 						{% endif %}
-
-						<!--{{ post.excerpt }}-->
-                        
                         <div class="small">
-                          {% include post_categories.html tags-class="small" %}
+                          {% include post_categories.html %}
                         </div>
-
 					</div>
 					<hr>
 					{% endfor %}
 				</div>
-				<!--{% include pagination.html %}-->
 			</div>
-
 			{% include sidebar.html %}
-
 		</div>
 	</div>

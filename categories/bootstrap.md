@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Posts About Bootstrap
+title: Bootstrap
 category: bootstrap
 permalink: /categories/bootstrap/
 breadcrumb: Bootstrap
