@@ -7,7 +7,7 @@ layout: post
 guid: http://brandonlehr.com/?p=510
 permalink: /pinewoodraceday/
 categories:
-  - ibuiltthis
+  - i-built-this
 tags:
   - Awana
   - Boy Scouts
@@ -15,6 +15,7 @@ tags:
   - pinewood derby
   - raingutter regatta
 featured_image: /uploads/2016/06/pinewood.jpg
+image: /uploads/2016/06/pinewood.jpg
 comments: true
 description: Free Pinewood derby and Raingutter regatta software.
 ---

@@ -7,9 +7,10 @@ layout: post
 guid: http://brandonlehr.com/?p=1
 permalink: /hello-world/
 categories:
-  - ibuiltthis
+  - i-built-this
 comments: true
 description: Announcing my move to WordPress
+image: site.logo
 ---
 <div class="well well-lg">
   <strong>Update 9/5/2016 </strong><br>This blog is now created with <a href="https://jekyllrb.com/" >Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub-Pages</a>

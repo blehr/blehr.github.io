@@ -7,7 +7,7 @@ layout: post
 guid: http://brandonlehr.com/?p=235
 permalink: /new-and-improved-whendidiwork-com/
 categories:
-  - ibuiltthis
+  - i-built-this
   - javascript
   - angular
 tags:
@@ -16,6 +16,7 @@ tags:
   - whendidiwork
 featured_image: /images/whendidiwork_icon_ribbon.png
 featured_image_max_width: 300px
+image: /images/whendidiwork_icon_ribbon.png
 comments: true
 description: An update to the whendidiwork time tracking app
 ---

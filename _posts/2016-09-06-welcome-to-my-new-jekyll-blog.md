@@ -4,9 +4,10 @@ title:  Welcome to My New Jekyll Blog!
 date: 2016-09-06
 categories: 
   - jekyll
-  - ibuiltthis
+  - i-built-this
 comments: true
 description: Brandon Lehr's new Jekyll Blog
+image: /images/jekyll-logo.png
 featured_image: /images/jekyll-logo.png
 featured_image_max_width: 300px
 ---

@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Learning to Code 
-category: learntocode
-permalink: /categories/learntocode/
+category: learn-to-code
+permalink: /categories/learn-to-code/
 breadcrumb: Learning to Code
 ---

@@ -7,11 +7,12 @@ layout: post
 guid: http://brandonlehr.com/?p=74
 permalink: /whendidiwork-a-time-clock-app/
 categories:
-  - ibuiltthis
+  - i-built-this
 tags:
   - whendidiwork
 featured_image: /images/whendidiwork-logo.png
 featured_image_max_width: 300px
+image: /images/whendidiwork-logo.png
 comments: true
 description: The whendidiwork time tracking application - perfect for Third Shifters
 ---

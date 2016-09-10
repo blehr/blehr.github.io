@@ -7,13 +7,14 @@ layout: post
 guid: http://brandonlehr.com/?p=111
 permalink: /wchscouts-com-cub-boy-scout-website-for-washington-ch-oh/
 categories:
-  - ibuiltthis
+  - i-built-this
 tags:
   - Boy Scouts
   - Cub Scouts
   - scouting
   - wchscouts.com
 featured_image: /uploads/2015/05/wchscouts_scrn_sht-1024x574-1024x574.png
+image: /uploads/2015/05/wchscouts_scrn_sht-1024x574-1024x574.png
 comments: true
 description: The building of wchscouts.com
 ---

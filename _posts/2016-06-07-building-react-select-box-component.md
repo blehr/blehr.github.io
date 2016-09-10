@@ -8,12 +8,13 @@ guid: http://brandonlehr.com/?p=573
 permalink: /building-react-select-box-component/
 categories:
   - javascript
-  - learntocode
+  - learn-to-code
   - reactjs
 tags:
   - React.js
 featured_image: /uploads/2016/06/react_logo-300x300.png
 featured_image_max_width: 300px
+image: /uploads/2016/06/react_logo-300x300.png
 comments: true
 description: How to build a select box in reactjs
 ---

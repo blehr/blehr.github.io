@@ -7,8 +7,8 @@ layout: post
 guid: http://brandonlehr.com/?p=601
 permalink: /software-solves-problems/
 categories:
-  - learntocode
-  - ibuiltthis
+  - learn-to-code
+  - i-built-this
 tags:
   - Awana
   - Boy Scouts
@@ -21,6 +21,7 @@ tags:
   - wchscouts.com
   - whendidiwork
 comments: true
+image: /uploads/2016/06/pinewood.jpg
 description: What do you program? To solve problems.
 ---
 ## What Do You Like Most About Programming?

@@ -4,14 +4,15 @@ description: > # this means to ignore newlines until "baseurl:"
  Home of Brandon Lehr, Web Developer, Blogger, Builder of Things
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://brandonlehr.com" # the base hostname & protocol for your site
-logo: ""
+logo: "/images/profilefunky.jpg"
 timezone:
 locale: en
 author:
   twitter: brandonlehr
 twitter:
   username: brandonlehr
-  
+
+permalink: pretty 
   
 social:
   name: Brandon Lehr

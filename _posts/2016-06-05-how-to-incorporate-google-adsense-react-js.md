@@ -12,6 +12,7 @@ categories:
 tags:
   - React.js
 featured_image: /images/image-adsense-code.png
+image: /images/image-adsense-code.png
 comments: true
 description: How to incorporate Google AdSense with React.js
 ---

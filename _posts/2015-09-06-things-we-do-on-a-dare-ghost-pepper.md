@@ -14,6 +14,7 @@ tags:
   - Stupid
 featured_image: /uploads/2015/09/ghostpepper-1-crop.png
 featured_image_max_width: 300px
+image: /uploads/2015/09/ghostpepper-1-crop.png
 comments: true
 description: Brandon Lehr foolishly eating a ghost pepper
 ---

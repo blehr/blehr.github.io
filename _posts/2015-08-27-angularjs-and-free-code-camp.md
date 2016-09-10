@@ -8,13 +8,14 @@ guid: http://brandonlehr.com/?p=192
 permalink: /angularjs-and-free-code-camp/
 categories:
   - javascript
-  - learntocode
+  - learn-to-code
   - angular
-  - freecodecamp
+  - free-code-camp
 tags:
   - Angular
   - Free Code Camp
 featured_image: /uploads/2015/08/success-angular.jpg
+image: /uploads/2015/08/success-angular.jpg
 comments: true
 description: The difficulties of learning Angular JS in Free Code Camp
 ---

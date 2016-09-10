@@ -8,12 +8,13 @@ guid: http://brandonlehr.com/?p=151
 permalink: /free-code-camp-progress-update/
 categories:
   - javascript
-  - learntocode
-  - freecodecamp
+  - learn-to-code
+  - free-code-camp
 tags:
   - CodePen
   - Free Code Camp
 featured_image: /uploads/2015/07/Screenshot-2015-07-29-at-6.14.25-PM.png
+image: /uploads/2015/07/Screenshot-2015-07-29-at-6.14.25-PM.png
 comments: true
 description: An update on my Free Code Camp progress
 ---

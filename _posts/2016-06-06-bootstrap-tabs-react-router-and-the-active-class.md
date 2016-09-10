@@ -8,7 +8,7 @@ guid: http://brandonlehr.com/?p=560
 permalink: /bootstrap-tabs-react-router-and-the-active-class/
 categories:
   - javascript
-  - learntocode
+  - learn-to-code
   - reactjs
   - bootstrap
 tags:
@@ -16,6 +16,7 @@ tags:
   - react-router
   - React.js
 featured_image: /uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png
+image: /uploads/2016/06/Screenshot-2016-06-06-at-5.40.25-AM.png 
 comments: true
 description: How to fix the Bootstrap Tab display the active tab in reactjs.
 ---

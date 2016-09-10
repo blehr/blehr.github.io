@@ -7,12 +7,13 @@ layout: post
 guid: http://brandonlehr.com/?p=619
 permalink: /fix-terminal-displaying-question-marks-instead-special-characters/
 categories:
-  - learntocode
+  - learn-to-code
 tags:
   - Free Code Camp
   - React.js
   - tips
 featured_image: /uploads/2016/06/Screenshot-061616-200931.png
+image: /uploads/2016/06/Screenshot-061616-200931.png
 comments: true
 description: Fix the terminal to allow the rendering special characters
 ---

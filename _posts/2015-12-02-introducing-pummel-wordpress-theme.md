@@ -7,11 +7,12 @@ layout: post
 guid: http://brandonlehr.com/?p=220
 permalink: /introducing-pummel-wordpress-theme/
 categories:
-  - ibuiltthis
+  - i-built-this
   - wordpress
 tags:
   - Pummel
 featured_image: /uploads/2015/11/Screenshot-2015-11-30-at-3.10.36-AM.png
+image: /uploads/2015/11/Screenshot-2015-11-30-at-3.10.36-AM.png
 comments: true
 description: The Pummel WordPress Theme
 ---

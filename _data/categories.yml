@@ -1,10 +1,10 @@
 jekyll:
   name: Jekyll
   
-learntocode:
+learn-to-code:
   name: Learning to Code
   
-ibuiltthis:
+i-built-this:
   name: I Built This
   
 javascript:
@@ -25,7 +25,7 @@ angular:
 foolish:
   name: Foolish
   
-freecodecamp:
+free-code-camp:
   name: Free Code Camp
 
     
