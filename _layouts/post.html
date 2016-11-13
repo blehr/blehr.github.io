@@ -39,8 +39,10 @@ layout: default
 					<a href="{{ site.baseurl }}{{ page.next.url }}" class="pull-right text-right" >{{page.next.title}} <span class="fa fa-angle-double-right"></span></a>
 					{% endif %}
 				</div>
+				<div class="google-ad-div">
+					{% include ads.html %}
+				</div>
 				{% include disqus_comments.html %}
 			</div>
 		</div>
 	</div>
-
