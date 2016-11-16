@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Pack Admin - Free Software for managing Cub Scout Packs
-date: 2016-11-14
+date: 2016-11-16
 categories:
   - i-built-this
 comments: true
