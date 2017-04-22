@@ -16,12 +16,12 @@ permalink: pretty
   
 social:
   name: Brandon Lehr
-  links: [
-    "http://www.linkedin.com/in/brandonlehr",
-    "http://plus.google.com/+BrandonLehr",
-    "https://twitter.com/brandonlehr",
-    "https://github.com/blehr"  
-  ]
+  links: 
+    - http://www.linkedin.com/in/brandonlehr
+    - http://plus.google.com/+BrandonLehr
+    - https://twitter.com/brandonlehr
+    - https://github.com/blehr 
+  
   
 disqus_shortname: brandonlehr.disqus.com
 
