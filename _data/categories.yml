@@ -28,4 +28,10 @@ foolish:
 free-code-camp:
   name: Free Code Camp
 
+google-login:
+  name: Google Login
+
+passport-js:
+  name: Passport JS
+
     
