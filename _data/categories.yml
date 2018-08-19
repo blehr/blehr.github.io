@@ -34,4 +34,10 @@ google-login:
 passport-js:
   name: Passport JS
 
+alpaca:
+  name: Alpacas
+
+android:
+  name: Android
+
     

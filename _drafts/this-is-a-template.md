@@ -2,7 +2,8 @@
 layout: post
 title:  "Post Template"
 date:   2016-09-05
-# categories: template
+categories: 
+  - alpaca
 comments: true
 description: this is a description for seo
 featured_image: ""
