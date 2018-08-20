@@ -39,3 +39,5 @@ Another common mask that I find myself needing, is a date mask. I normally need 
 <script src="https://gist.github.com/blehr/04275aa31bba819b9515decd9f0ffe8d.js"></script>
 
 Well, I hope you find this helpful! I know I searched for these answers when I needed them. If you have any questions or ideas for improvements, my employer would love for me to hear them! :) 
+
+All of the code can be found here on [github](https://github.com/blehr/DatePickerExample)
