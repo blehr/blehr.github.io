@@ -28,6 +28,21 @@ So I would like to announce the [Alpaca Tracker](https://alpacatracker.com). Alp
 
 There are other options out there, but they all come at a price, and often contain a confusing interface full of unneeded options, and slow response times. I designed Alpaca Tracker to be simple and effective, giving easy access to all of the information that you actually need on desktop and mobile to keep your herd successfully and efficiently managed.
 
+### Alpaca Tracker on Android
+
+Now you view and update alpaca information and events from your phone.
+
+<div style="width: 200px; margin-bottom: 15px;" class="img-center"  ><a href="https://play.google.com/store/apps/details?id=com.brandonlehr.alpacatracker&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"></a></div>
+
+<div class="two-item-flex" >
+
+  <img src="/images/alpaca_roster.jpg" class="img-md img-center" style="margin-bottom: 15px;" alt="Roster Mobile Page">
+
+  <img src="/images/alpaca_detail.jpg" class="img-md img-center" style="margin-bottom: 15px;" alt="Alpaca Detail Mobile Page">
+
+</div>
+
+
 Here is a walk through video of the Alpaca Tracker.
 
 <div class="embed-responsive embed-responsive-16by9">
