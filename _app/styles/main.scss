@@ -224,7 +224,24 @@ pre {
 	margin-bottom: 15px;
 }
 
+.two-item-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 990px) {
+	.two-item-flex {
+		justify-content: center;
+	}
+}
+
 @media (max-width: 900px) {
+	
 	.content {
 		flex-direction: column;
 		top: -75px;
