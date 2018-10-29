@@ -18,7 +18,7 @@ featured_image_max_width: 300px
 
 ### Looking for a convenient way to track attendance?
 
-Check out Roll Call for Android
+Check out [Roll Call](https://play.google.com/store/apps/details?id=com.brandonlehr.rollcall) for Android
 
 <div class="two-item-flex" >
 
