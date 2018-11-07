@@ -8,7 +8,7 @@
 }
 
 .img-center {
-	margin: auto;
+	margin: 25px auto;
 }
 
 .tweet-this .fa {
@@ -18,4 +18,8 @@
 .img-border {
 	border: 1px solid $body-color;
 	border-radius: 15px;
+}
+
+.gist {
+	margin: 25px 0;
 }

@@ -40,4 +40,13 @@ alpaca:
 android:
   name: Android
 
+dotnet:
+  name: ASP.NET Core
+
+docker:
+  name: Docker
+
+digital-ocean:
+  name: Digital Ocean
+
     
