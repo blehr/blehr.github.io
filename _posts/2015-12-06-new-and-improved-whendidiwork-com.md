@@ -20,6 +20,9 @@ image: /images/whendidiwork_icon_ribbon.png
 comments: true
 description: An update to the whendidiwork time tracking app
 ---
+
+<div style="width: 200px"><a href="https://play.google.com/store/apps/details?id=com.brandonlehr.whendidiwork&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"></a></div>
+
 <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="whendidiwork-logo" class="img-md" />
 
 I have [written before]({% post_url 2015-05-12-whendidiwork-a-time-clock-app %}) about my time tracking app, [whendidiwork](http://whendidiwork.com/), which is especially great for third shift workers. I still use it daily for recording my work and project hours to my Google calendar and a Google sheet.

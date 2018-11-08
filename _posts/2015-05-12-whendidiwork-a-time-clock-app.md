@@ -20,6 +20,8 @@ description: The whendidiwork time tracking application - perfect for Third Shif
   <strong>Update 12/5/2015 </strong>I have released an updated version of the app with new features! When you&#8217;re finished here, head over and <a href="{{ site.url }}{% post_url 2015-12-06-new-and-improved-whendidiwork-com %}">learn more</a> about the new whendidiwork!
 </div>
 
+<div style="width: 200px"><a href="https://play.google.com/store/apps/details?id=com.brandonlehr.whendidiwork&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"></a></div>
+
 <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="whendidiwork" class="img-md img-center" />
 
 ## A simple time clock application. That&#8217;s all I was looking for.
